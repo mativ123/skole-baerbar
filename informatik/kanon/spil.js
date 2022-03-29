@@ -4,6 +4,10 @@ window.onload=function()
     var context = canvas.getContext('2d');
     var cannonball = new Image();
     cannonball.src = 'cannonball.png';
+    var cannonBase = new Image();
+    cannonBase.src = 'cannon-base.png';
+    var cannonShooter = new Image();
+    cannonShooter.src = 'cannon-shooter.png';
 
     var ballX = 0;
     var ballY = 200;
@@ -24,13 +28,12 @@ window.onload=function()
     var prevListX = [];
     var prevListY = [];
 
-    var rollingRot = 0;
-    var rollingSlowdown = 1;
+    var rollingSlowdown = 10;
 
-    function main()
-    {
-        setTimeout(main, 1);
-    }
+    var posString = "X: "+Math.round(ballX)+", Ball Y"+Math.round(ballY);
+    var speedString;
+    var tempX;
+    var tempY;
 
     function skydFunc()
     {
@@ -50,34 +53,63 @@ window.onload=function()
         trailPointListX = [];
         trailPointListY = [];
         trailPointAdd();
+
     }
 
     document.getElementById("skydKnap").onclick = function () { skydFunc() };
+    var powerOutput = document.getElementById("powerText");
+    power.oninput = function()
+    {
+        powerOutput.innerHTML = this.value;
+    }
 
-    function skud()
+    var angleOutput = document.getElementById("angleText");
+    angle.oninput = function()
+    {
+        angleOutput.innerHTML = this.value;
+    }
+
+    function main()
     {
         if(skydBool)
         {
+            posString = "X: "+Math.round(ballX)+", Ball Y: "+Math.round(800-ballY);
+
             context.clearRect(0, 0, 2000, 800);
+           // context.save();
+           // context.translate(100, 100);
+           // context.rotate(20*Math.PI/180);
+           // context.translate(-100, -100);
+           // context.drawImage(cannonShooter, 100, 100, 100, 100);
+           // context.restore();
+           // context.drawImage(cannonBase, 100, 100, 100, 100);
             drawLine();
             context.drawImage(cannonball, ballX, ballY, 50, 50);
-            ballX+=xSpeed;
+            context.font = "30px Arial";
+            context.fillText(posString , 10, 50); 
+            context.fillText(speedString, 10, 100);
 
             ySpeed-=0.00982;
+            ballX+=xSpeed;
+            
 
             if(ballY < 750)
             {
                 ballY-=ySpeed;
             } else
             {
-                xSpeed -= rollingSlowdown/1000;
-                rollingRot+=1;
-                context.rotate(rollingRot * Math.PI / 180);
+                if(xSpeed>0)
+                {
+                    xSpeed -= rollingSlowdown/1000;
+                } else
+                {
+                    xSpeed = 0;
+                }
 
                 stoppedFlying = true;
             }
         }
-        setTimeout(skud, 1);
+        setTimeout(main, 1);
     }
 
     function trailPointAdd()
@@ -116,6 +148,16 @@ window.onload=function()
         context.stroke();
     }
 
-    skud();
+    function speedDef()
+    {
+        var velX = Math.abs(Math.round(((ballX-tempX)/0.001)/100));
+        var velY = Math.abs(Math.round(((ballY-tempY)/0.001)/100));
+        speedString = "X: "+velX+"m/s, Y: "+velY+"m/s";
+        tempX = ballX;
+        tempY = ballY;
+
+        setTimeout(speedDef, 1);
+    }
     main();
+    speedDef();
 }
