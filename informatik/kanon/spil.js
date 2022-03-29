@@ -8,6 +8,8 @@ window.onload=function()
     cannonBase.src = 'cannon-base.png';
     var cannonShooter = new Image();
     cannonShooter.src = 'cannon-shooter.png';
+    var backgroundImg = new Image();
+    backgroundImg.src = 'background.jpg';
 
     var ballX = 0;
     var ballY = 200;
@@ -83,6 +85,7 @@ window.onload=function()
            // context.drawImage(cannonShooter, 100, 100, 100, 100);
            // context.restore();
            // context.drawImage(cannonBase, 100, 100, 100, 100);
+            //context.drawImage(backgroundImg, 0, 0, 2000, 1125);
             drawLine();
             context.drawImage(cannonball, ballX, ballY, 50, 50);
             context.font = "30px Arial";
