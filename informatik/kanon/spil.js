@@ -10,23 +10,46 @@ window.onload=function()
     var xSpeed = 1;
     var ySpeed = 1;
 
-    var power = document.getElementById("slider");
+    var power = document.getElementById("power");
+    var angle = document.getElementById("angle");
     
     var skydBool = false;
+    var powerPercent;
+    var powerSub;
+    var powerVal;
+
+    function skydFunc()
+    {
+        ballX = 0;
+        ballY = 800;
+        powerVal = power.value/20;
+        powerPercent = (angle.value*1.1111)/100;
+        powerSub = powerVal*powerPercent;
+        console.log(powerPercent);
+        console.log(powerSub);
+
+
+        ySpeed = powerVal-(powerVal-powerSub);
+        xSpeed= powerVal-powerSub;
+        console.log(ySpeed);
+        console.log(xSpeed);
+        skydBool = true;
+    }
+
+    document.getElementById("skydKnap").onclick = function () { skydFunc() };
 
     function skud()
     {
         if(skydBool)
         {
-            xSpeed=power.value/50;
-            context.clearRect(0, 0, 500, 500);
+            context.clearRect(0, 0, 2000, 800);
             context.drawImage(cannonball, ballX, ballY, 50, 50);
             ballX+=xSpeed;
             ballY-=ySpeed;
 
             ySpeed-=0.00982;
 
-            if(ballY > 500)
+            if(ballY > 800 && ballX)
             {
                 skydBool = false;
             }
@@ -34,9 +57,5 @@ window.onload=function()
         setTimeout(skud, 1);
     }
 
-    function skyd()
-    {
-        skydBool = true;
-    }
     skud();
 }
