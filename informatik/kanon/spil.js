@@ -68,7 +68,7 @@ window.onload=function()
     var angleOutput = document.getElementById("angleText");
     angle.oninput = function()
     {
-        angleOutput.innerHTML = this.value;
+        angleOutput.innerHTML = this.value+"°";
     }
 
     function main()
