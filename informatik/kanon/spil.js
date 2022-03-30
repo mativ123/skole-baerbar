@@ -2,6 +2,7 @@ window.onload=function()
 {
     var canvas = document.getElementById('spilCanvas');
     var context = canvas.getContext('2d');
+
     var cannonball = new Image();
     cannonball.src = 'cannonball.png';
     var cannonBase = new Image();
@@ -37,10 +38,21 @@ window.onload=function()
     var tempX;
     var tempY;
 
+    var cannonShooterWidth;
+    var cannonShooterHeight;
+    var cannonBaseWidth = 100;
+    var cannonBaseHeight;
+    var cannonShooterPosX;
+    var cannonShooterPosY;
+    var cannonBasePosY;
+    var cannonBasePosX = 10;
+
+    var cannonBallSize = 25;
+
     function skydFunc()
     {
-        ballX = 140;
-        ballY = 650;
+        ballX = cannonShooterPosX+cannonShooterWidth/3;
+        ballY = cannonShooterPosY-cannonShooterHeight/3;
         powerVal = power.value/20;
         //her laver jeg tallene jeg får fra sliderne og laver dem om til procent (1.1111 er bare 100/90)
         powerPercent = (angle.value*1.1111)/100;
@@ -48,14 +60,24 @@ window.onload=function()
 
         ySpeed = powerVal-(powerVal-powerSub);
         xSpeed= powerVal-powerSub;
-        skydBool = true;
         stoppedFlying = false;
+        
+        cannonShooterWidth = cannonBaseWidth*1.24;
+        cannonShooterHeight = cannonShooterWidth*0.24;
+        cannonBaseHeight = cannonBaseWidth*0.625;
+        cannonBasePosY = canvas.height-cannonBaseHeight;
+
+        cannonShooterPosX = cannonBasePosX+8;
+        cannonShooterPosY = cannonBasePosY-13;
+
+        skydBool = true;
 
         prevListX = trailPointListX;
         prevListY = trailPointListY;
         trailPointListX = [];
         trailPointListY = [];
         trailPointAdd();
+
     }
 
     document.getElementById("skydKnap").onclick = function () { skydFunc() };
@@ -80,14 +102,14 @@ window.onload=function()
             //context.drawImage(backgroundImg, 0, 0, 2000, 1125);
             context.clearRect(0, 0, 2000, 800);
             drawLine();
-            context.drawImage(cannonball, ballX, ballY, 50, 50);
+            context.drawImage(cannonball, ballX, ballY, cannonBallSize, cannonBallSize);
             context.save();
-            context.translate(40+248/2, 650+59/2);
+            context.translate(cannonShooterPosX+cannonShooterWidth/2, cannonBasePosY+cannonShooterHeight/2);
             context.rotate(-angle.value*Math.PI/180);
-            context.translate(-(40+248/2), -(650+59/2));
-            context.drawImage(cannonShooter, 40, 650, 248, 59);
+            context.translate(-(cannonShooterPosX+cannonShooterWidth/2), -(cannonBasePosY+cannonShooterHeight/2));
+            context.drawImage(cannonShooter, cannonShooterPosX, cannonShooterPosY, cannonShooterWidth, cannonShooterHeight);
             context.restore();
-            context.drawImage(cannonBase, 20, 675, 200, 125);
+            context.drawImage(cannonBase, cannonBasePosX, cannonBasePosY, cannonBaseWidth, cannonBaseHeight);
             context.font = "30px Arial";
             if(ballY<30)
             {
@@ -107,7 +129,7 @@ window.onload=function()
             ballX+=xSpeed;
             
 
-            if(ballY < 750)
+            if(ballY < canvas.height-cannonBallSize)
             {
                 ballY-=ySpeed;
             } else
@@ -144,32 +166,30 @@ window.onload=function()
     function drawLine()
     {
         //blå linje
-        context.lineWidth = 10;
+        context.lineWidth = 5;
         context.strokeStyle = "#ff000d";
         context.beginPath();
-        context.moveTo(140,650);
+        context.moveTo(cannonShooterPosX+cannonShooterWidth/3, cannonShooterPosY-cannonShooterHeight/3);
         for(var i = 0; i<prevListY.length; ++i)
         {
-            context.lineTo(prevListX[i]+25, prevListY[i]+25);
+            context.lineTo(prevListX[i]+cannonBallSize/2, prevListY[i]+cannonBallSize/2);
         }
         context.stroke();
 
         //røde linje
-        context.lineWidth = 10;
+        context.lineWidth = 5;
         context.strokeStyle = "#2200ff";
         context.beginPath();
-        context.moveTo(140,650);
+        context.moveTo(cannonShooterPosX+cannonShooterWidth/3, cannonShooterPosY-cannonShooterHeight/3);
         for(var i = 0; i<trailPointListX.length; ++i)
         {
-            context.lineTo(trailPointListX[i]+25, trailPointListY[i]+25);
+            context.lineTo(trailPointListX[i]+cannonBallSize/2, trailPointListY[i]+cannonBallSize/2);
         }
         context.stroke();
     }
 
     function speedDef()
     {
-        //var velX = Math.abs(Math.round(((ballX-tempX)/0.001)/100));
-        //var velY = Math.abs(Math.round(((ballY-tempY)/0.001)/100));
         var distance = Math.sqrt(Math.pow((ballX-tempX), 2) + Math.pow((ballY-tempY), 2));
         var velocity = Math.round(distance/0.001);
         speedString = velocity+"m/s";
