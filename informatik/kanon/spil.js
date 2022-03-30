@@ -42,6 +42,7 @@ window.onload=function()
         ballX = 140;
         ballY = 650;
         powerVal = power.value/20;
+        //her laver jeg tallene jeg får fra sliderne og laver dem om til procent (1.1111 er bare 100/90)
         powerPercent = (angle.value*1.1111)/100;
         powerSub = powerVal*powerPercent;
 
@@ -74,7 +75,7 @@ window.onload=function()
     {
         if(skydBool)
         {
-            posString = "X: "+Math.round(ballX)/100+"m, Y: "+Math.round(800-ballY)/100+"m";
+            posString = "X: "+Math.round(ballX)+"m, Y: "+Math.round(800-ballY)+"m";
 
             //context.drawImage(backgroundImg, 0, 0, 2000, 1125);
             context.clearRect(0, 0, 2000, 800);
@@ -125,6 +126,7 @@ window.onload=function()
         setTimeout(main, 1);
     }
 
+    //her gemmer jeg koordinaterne i lister
     function trailPointAdd()
     {
         trailPointListX.push(ballX);
@@ -138,8 +140,10 @@ window.onload=function()
         setTimeout(trailPointAdd, 1);
     }
 
+    //her tegner jeg linjen ud fra koordinaterne
     function drawLine()
     {
+        //blå linje
         context.lineWidth = 10;
         context.strokeStyle = "#ff000d";
         context.beginPath();
@@ -150,6 +154,7 @@ window.onload=function()
         }
         context.stroke();
 
+        //røde linje
         context.lineWidth = 10;
         context.strokeStyle = "#2200ff";
         context.beginPath();
@@ -166,7 +171,7 @@ window.onload=function()
         //var velX = Math.abs(Math.round(((ballX-tempX)/0.001)/100));
         //var velY = Math.abs(Math.round(((ballY-tempY)/0.001)/100));
         var distance = Math.sqrt(Math.pow((ballX-tempX), 2) + Math.pow((ballY-tempY), 2));
-        var velocity = Math.round(distance/0.001)/100;
+        var velocity = Math.round(distance/0.001);
         speedString = velocity+"m/s";
 
         tempX = ballX;
