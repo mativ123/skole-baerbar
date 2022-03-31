@@ -165,6 +165,8 @@ window.onload=function()
     //her tegner jeg linjen ud fra koordinaterne
     function drawLine()
     {
+        var arcList = [];
+        for()
         //blå linje
         context.lineWidth = 5;
         context.strokeStyle = "#ff000d";
@@ -198,6 +200,20 @@ window.onload=function()
         tempY = ballY;
 
         setTimeout(speedDef, 1);
+    }
+
+    function randomHexGen()
+    {
+        var hexString = "#";
+        var hexChars = ['0','1','2','3','4','5','6','7','8','9','A','B','C','E','F'];
+
+        for(var i = 0; i<6; i++)
+        {
+            var randNum = Math.floor(Math.random() * 16);
+            hexString = hexString+hexChars[randNum];
+        }
+
+        return hexString;
     }
     main();
     speedDef();
