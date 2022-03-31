@@ -27,6 +27,8 @@ window.onload=function()
 
     var trailPointListX = [];
     var trailPointListY = [];
+    var arcListX = [];
+    var arcListY = [];
     var stoppedFlying = true;
     var prevListX = [];
     var prevListY = [];
@@ -77,7 +79,6 @@ window.onload=function()
         trailPointListX = [];
         trailPointListY = [];
         trailPointAdd();
-
     }
 
     document.getElementById("skydKnap").onclick = function () { skydFunc() };
@@ -156,6 +157,8 @@ window.onload=function()
 
         if(stoppedFlying)
         {
+            arcListX.push(trailPointListX);
+            arcListY.push(trailPointListY);
             return;
         }
 
@@ -165,29 +168,32 @@ window.onload=function()
     //her tegner jeg linjen ud fra koordinaterne
     function drawLine()
     {
-        var arcList = [];
-        for()
-        //blå linje
-        context.lineWidth = 5;
-        context.strokeStyle = "#ff000d";
-        context.beginPath();
-        context.moveTo(cannonShooterPosX+cannonShooterWidth/3, cannonShooterPosY-cannonShooterHeight/3);
-        for(var i = 0; i<prevListY.length; ++i)
+        console.table(arcListX);
+        for(var i = 0; i<arcListX.length; i++)
         {
-            context.lineTo(prevListX[i]+cannonBallSize/2, prevListY[i]+cannonBallSize/2);
+            console.log(arcListX[i]);
+            context.lineWidth = 5;
+            context.strokeStyle = randomHexGen();
+            context.beginPath();
+            context.moveTo(cannonShooterPosX+cannonShooterWidth/3, cannonShooterPosY-cannonShooterHeight/3);
+            for(var j = 0; j<arcListX[i].length; ++j)
+            {
+                context.lineTo(arcListX[i][j]+cannonBallSize/2, arcListY[i][j]+cannonBallSize/2);
+            }
+            context.stroke();
         }
-        context.stroke();
+        //blå linje
 
         //røde linje
-        context.lineWidth = 5;
-        context.strokeStyle = "#2200ff";
-        context.beginPath();
-        context.moveTo(cannonShooterPosX+cannonShooterWidth/3, cannonShooterPosY-cannonShooterHeight/3);
-        for(var i = 0; i<trailPointListX.length; ++i)
-        {
-            context.lineTo(trailPointListX[i]+cannonBallSize/2, trailPointListY[i]+cannonBallSize/2);
-        }
-        context.stroke();
+       // context.lineWidth = 5;
+       // context.strokeStyle = "#2200ff";
+       // context.beginPath();
+       // context.moveTo(cannonShooterPosX+cannonShooterWidth/3, cannonShooterPosY-cannonShooterHeight/3);
+       // for(var i = 0; i<trailPointListX.length; ++i)
+       // {
+       //     context.lineTo(trailPointListX[i]+cannonBallSize/2, trailPointListY[i]+cannonBallSize/2);
+       // }
+       // context.stroke();
     }
 
     function speedDef()
