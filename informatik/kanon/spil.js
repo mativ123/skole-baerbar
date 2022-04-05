@@ -11,6 +11,8 @@ window.onload=function()
     cannonShooter.src = 'cannon-shooter.png';
     var backgroundImg = new Image();
     backgroundImg.src = 'background.jpg';
+    var abe = new Image();
+    abe.src = 'abe.png';
 
     var ballX = 0;
     var ballY = 200;
@@ -124,6 +126,7 @@ window.onload=function()
             context.drawImage(cannonShooter, cannonShooterPosX, cannonShooterPosY, cannonShooterWidth, cannonShooterHeight);
             context.restore();
             context.drawImage(cannonBase, cannonBasePosX, cannonBasePosY, cannonBaseWidth, cannonBaseHeight);
+            context.drawImage(abe, 100, 100, 100, 100);
             context.font = "30px Arial";
             if(ballY<30)
             {
