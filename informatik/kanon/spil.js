@@ -21,6 +21,7 @@ window.onload=function()
 
     var power = document.getElementById("power");
     var angle = document.getElementById("angle");
+    var arcSlider = document.getElementById("arcNumber");
     
     var skydBool = false;
     var powerPercent;
@@ -52,7 +53,6 @@ window.onload=function()
     var stoppedFlying = true;
     var colorList = [];
     var drawLines = false;
-
 
     function skydFunc()
     {
@@ -105,6 +105,14 @@ window.onload=function()
     {
         angleOutput.innerHTML = "degress: "+this.value+"°";
     }
+
+    var arcNumberTextOutput = document.getElementById("arcNumberText");
+    arcNumberTextOutput.innerHTML = 2+" arcs";
+    arcSlider.oninput = function()
+    {
+        arcNumberTextOutput.innerHTML = this.value+" arcs";
+    }
+
 
     function main()
     {
@@ -173,31 +181,29 @@ window.onload=function()
 
         if(!stoppedFlying)
         {
-            setTimeout(arcRecord, 100);
+            setTimeout(arcRecord, 1);
         }
     }
 
     function drawArcs()
     {
-        context.lineWidth = 5;
-        context.strokeStyle = colorList[arcCount];
-        context.beginPath();
-        context.moveTo(cannonShooterPosX+cannonShooterWidth/3, cannonShooterPosY-cannonShooterHeight/3);
-        for(var i = 0; i<arcListX[arcCount].length; i++)
-        {
-            context.lineTo(arcListX[arcCount][i]+cannonBallSize/2, arcListY[arcCount][i]+cannonBallSize/2)
-        }
-        context.stroke();
 
-        if(arcCount>=1)
+        if(arcSlider.value > arcCount)
+        {
+            var arcsToDraw = arcCount+1;
+        } else
+        {
+            var arcsToDraw = arcSlider.value;
+        }
+        for(var x = 0; x<arcsToDraw; x++)
         {
             context.lineWidth = 5;
-            context.strokeStyle = colorList[arcCount-1];
+            context.strokeStyle = colorList[arcCount-x];
             context.beginPath();
             context.moveTo(cannonShooterPosX+cannonShooterWidth/3, cannonShooterPosY-cannonShooterHeight/3);
-            for(var i = 0; i<arcListX[arcCount-1].length; i++)
+            for(var i = 0; i<arcListX[arcCount-x].length; i++)
             {
-                context.lineTo(arcListX[arcCount-1][i]+cannonBallSize/2, arcListY[arcCount-1][i]+cannonBallSize/2)
+                context.lineTo(arcListX[arcCount-x][i]+cannonBallSize/2, arcListY[arcCount-x][i]+cannonBallSize/2)
             }
             context.stroke();
         }
