@@ -54,6 +54,9 @@ window.onload=function()
     var colorList = [];
     var drawLines = false;
 
+    var abePos;
+    var abeWidth;
+
     function skydFunc()
     {
         ballX = cannonShooterPosX+cannonShooterWidth/3;
