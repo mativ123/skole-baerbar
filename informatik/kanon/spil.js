@@ -13,6 +13,8 @@ window.onload=function()
     backgroundImg.src = 'background.jpg';
     var abe = new Image();
     abe.src = 'abe.png';
+    var monke = new Image();
+    monke.src = 'monke.png';
 
     var ballX = 0;
     var ballY = 200;
@@ -54,11 +56,50 @@ window.onload=function()
     var colorList = [];
     var drawLines = false;
 
-    var abePos;
-    var abeWidth;
+    var abePos = canvas.width;
+    var abeSize = 100;
+    var abeRot = 0;
+    var abeSpeed = 0.6;
+
+    var score = 0;
+    
+    var mouseX;
+    var mouseY;
+    var buttonHighlight = false;
+    var dedBool = false;
+    var buttonClicked = false;
+
+    canvas.addEventListener("mousemove", function(e) { 
+        var cRect = canvas.getBoundingClientRect();        // Gets CSS pos, and width/height
+        var canvasX = Math.round(e.clientX - cRect.left);  // Subtract the 'left' of the canvas 
+        var canvasY = Math.round(e.clientY - cRect.top);   // from the X/Y positions to make  
+
+        mouseX = canvasX;
+        mouseY = canvasY;
+    });
+
+    canvas.addEventListener('click', function() 
+    { 
+        if(buttonHighlight && dedBool)
+        {
+            abePos = canvas.width;
+            abeSize = 100;
+            abeRot = 0;
+            abeSpeed = 0.6;
+
+            score = 0;
+            dedBool = false;
+            skydBool = false;
+            buttonClicked = true;
+            main();
+            skydFunc();
+        }
+
+    }, false);
 
     function skydFunc()
     {
+        dedBool = false;
         ballX = cannonShooterPosX+cannonShooterWidth/3;
         ballY = cannonShooterPosY-cannonShooterHeight/3;
         powerVal = power.value/20;
@@ -119,26 +160,56 @@ window.onload=function()
 
     function main()
     {
+        context.font = "30px Arial";
         if(skydBool)
         {
             posString = "X: "+Math.round(ballX)+"m, Y: "+Math.round(800-ballY)+"m";
 
             //context.drawImage(backgroundImg, 0, 0, 2000, 1125);
             context.clearRect(0, 0, 2000, 800);
+            context.fillText(score, canvas.width-100, 50);
             if(drawLines)
             {
                 drawArcs();
             }
             context.drawImage(cannonball, ballX, ballY, cannonBallSize, cannonBallSize);
+
             context.save();
             context.translate(cannonShooterPosX+cannonShooterWidth/2, cannonBasePosY+cannonShooterHeight/2);
             context.rotate(-angle.value*Math.PI/180);
             context.translate(-(cannonShooterPosX+cannonShooterWidth/2), -(cannonBasePosY+cannonShooterHeight/2));
             context.drawImage(cannonShooter, cannonShooterPosX, cannonShooterPosY, cannonShooterWidth, cannonShooterHeight);
             context.restore();
+
             context.drawImage(cannonBase, cannonBasePosX, cannonBasePosY, cannonBaseWidth, cannonBaseHeight);
-            context.drawImage(abe, 100, 100, 100, 100);
-            context.font = "30px Arial";
+
+            context.save();
+            context.translate(abePos+abeSize/2, (canvas.height-abeSize)+abeSize/2);
+            context.rotate(abeRot*Math.PI/180);
+            context.translate(-(abePos+abeSize/2), -((canvas.height-abeSize)+abeSize/2));
+            context.drawImage(abe, abePos, canvas.height-abeSize, abeSize, abeSize);
+            context.restore();
+            abePos-=abeSpeed;
+            abeRot-=1;
+            if(abeRot == -360)
+            {
+                abeRot = 0;
+            }
+            if(abePos < 0)
+            {
+                buttonClicked = false;
+                ded();
+                return;
+            } 
+
+            if(ballY > canvas.height-abeSize && ballX > abePos && ballX<abePos+abeSize && !stoppedFlying)
+            {
+                score++;
+                abePos = canvas.width;
+                abeSpeed*=1.5;
+                abeRot*=1.5;
+            }
+
             if(ballY<30)
             {
                 context.fillText(posString, ballX, 30); 
@@ -175,6 +246,42 @@ window.onload=function()
             }
         }
         setTimeout(main, 1);
+    }
+
+    function ded()
+    {
+        if(mouseX > 50 && mouseX < 50+300 && mouseY > 400 && mouseY < 400+100)
+        {
+            buttonHighlight = true;
+        } else
+        {
+            buttonHighlight = false;
+        }
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.drawImage(monke, canvas.width/2-(canvas.height/0.724)/2, 0, canvas.height/0.724, canvas.height)
+
+        if(buttonHighlight)
+        {
+            context.fillStyle = "#80ffbb";
+        } else
+        {
+            context.fillStyle = "white";
+        }
+        context.fillRect(50, 400, 300, 100);
+        context.strokeStyle = "#000000";
+        context.fillStyle = "black";
+        context.fillText("spil igen?", 150, 465);
+        context.strokeRect(50, 400, 300, 100);
+
+        if(buttonClicked)
+        {
+            return;
+        } else
+        {
+            dedBool = true;
+        }
+
+        setTimeout(ded, 1);
     }
 
     function arcRecord()
