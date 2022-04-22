@@ -1,4 +1,5 @@
 # alkyner og cycliske carbonhydrider
+---
 * alkan = enkelt binding
 * alken = dobbeltbinding
 * alkyner = tripelbinding
@@ -30,13 +31,13 @@ også kaldt ***Aren***
 ![](https://cdn.discordapp.com/attachments/914855119928061964/966224064828047370/unknown.png)
 ### opgave 103
 * a. 
-		![[opgave-103-a.png]]
-	 	![[opgave-103-b.png]]
-		![[opgave-103-c.png]]
+			![[opgave-103-a.png]]
+			![[opgave-103-b.png]]
+			![[opgave-103-c.png]]
 * b.
-		ja en mer
+			ja en mer
 * c.
-		3
+			3
 ### opgave 104
 ![[tnt.png]] 
 *(forestil dig en aromatisk cirkel i midten)*

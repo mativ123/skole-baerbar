@@ -1,5 +1,6 @@
 
 # brydning
+---
 ## prisme
 lyset bliver brudt i prismen. forskellige bølgelængder brydes forskelligt.
 vinkel overdriver effekten i prismen.
@@ -16,6 +17,7 @@ $n\cdot \lambda = d\cdot sin(\phi)$
 ![[brydning mellem to stoffer.png]]
 det blå stof har en lavere brydnings index *($n$)* end det grå stof.
 # elektromagnetisk spektrum
+---
 ![[elektromagnetisk spektrum.png]]
 
 ## solen

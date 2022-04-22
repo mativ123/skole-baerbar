@@ -1,4 +1,5 @@
 # ligning
+---
 $c:(x-a)^2+(y-b)^2=r^2$
 centrum: $c(a,b)$
 radius: $r$
@@ -11,6 +12,7 @@ $c:(x-3)^2+(y-4)^2=25$
 en cirkel med centrum i $(-3,0)$ og $r=4$:
 $c:(x+3)^2+y^2=16$
 # punkt på cirkel
+---
 en cirkel med centrum $(3,2)$ og $r=5$
 $p=(7,5)$ ligger på cirkelen.
 $c:(x-3)^2+(y-2)^2=25$
@@ -20,6 +22,7 @@ $4^2+3^2=25\Downarrow$
 $16+9=25\Downarrow$
 $25=25$
 # kvadrat komplettering
+---
 $c_1:(x-3)^2+(y-2)^2=25$
 *kvadratsætning 2*
 $c_2:(x^2+9-6x+y^2+4-4y=25$
@@ -41,4 +44,5 @@ $(x+3)^2+(y-5)^2=20$
 $c(-3,5)$, $r=\sqrt{20}$
 
 # kilde
+---
 [Cirklens ligning - systime](https://matstxa2.systime.dk/index.php?id=605&L=0)
