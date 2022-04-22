@@ -5,9 +5,17 @@
 lyset bliver brudt i prismen. forskellige bølgelængder brydes forskelligt.
 vinkel overdriver effekten i prismen.
 ## snells lov
-$n_1\cdot sin(\phi _1)=n_2\cdot sin(\phi_2)$
+$n_1\cdot sin(\phi _1)=n_2\cdot sin(\phi_2)$ eller:
+$n_1\cdot sin(i)=n_2\cdot sin(b)$
+* $n_1$: brydningindexet på materiale et.
+* $n_2$: brydningindexet på materiale to.
+* $i$: indfaldsvinkelen
+* $b$: brydningsvinkelen
+
 $n=\frac{c}{v}$
-n er brydnings index
+* n: brydnings index
+* v: udbreddelseshastigheden *(bølgens hastighed)* 
+* c: lysets hastighed *(konstant)* 
 ## optiske gittere
 ![[optisk gitter.png]]
 n er ordenens nummer og d er afstanden mellem rillerne på gitteret.
@@ -15,10 +23,24 @@ gitter ligningen *(gitterkonstanten)*:
 $n\cdot \lambda = d\cdot sin(\phi)$
 ## brydning mellem to forskellige stoffer
 ![[brydning mellem to stoffer.png]]
-det blå stof har en lavere brydnings index *($n$)* end det grå stof.
+det blå stof har en lavere brydnings index *($n$)* end det grå stof. 
+* $i$: indfaldsvinkelen
+* $b$: brydningsvinkelen
+![[brydning i plexiglas.png]]
+udfaldsvinkelen er lig med indfaldsvinkelen.
+### totalreflektion
+total reflektion er når alt lys bliver reflekteret. det sker når  brydningsvinkelen er mindst 90$^\circ$.
 # elektromagnetisk spektrum
 ---
 ![[elektromagnetisk spektrum.png]]
 
 ## solen
 solen indeholder hele det synlige spektrum + noget UV.
+
+# kilder
+## pdf'er
+[[Lektion 1 - Bølgers egenskaber.pdf]]
+[[Lektion 2 - Frekvens, periode og bølgeligningen.pdf]]
+[[Lektion 3 - Det elektromagnetiske spektrum.pdf]]
+[[Lektion 4 - Brydning.pdf]]
+[[Lektion 5 - Optiske gitre.pdf]]
