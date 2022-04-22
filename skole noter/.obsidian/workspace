@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "1d391e3ebb784cb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "380c24626661c6a0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1.G/matematik/cirkelens ligning.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2db070f50b6b1b00",
+    "type": "split",
+    "children": [
+      {
+        "id": "29fdcbe2d9496303",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78299b15261c0200",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5d37460e0af3ab62",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "77d3f05e21c57a90",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a367926a02b27d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0f925526c6ea97f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1.G/matematik/cirkelens ligning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ca45191f56eb3b9e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "380c24626661c6a0",
+  "lastOpenFiles": [
+    "1.G/matematik/cirkelens ligning.md",
+    "1.G/fysik/Bølger.md",
+    "1.G/matematik/Sej mat.md",
+    "test.md",
+    "Untitled.md",
+    "Pasted image 20220421104225.png",
+    "1.G/matematik/billeder/kvadrat komplettering.png",
+    "1.G/matematik/billeder/cirkelens ligning.png",
+    "1.G/kemi/organisk kemi/alkyner og cycliske carbonhydrider.md",
+    "1.G/informatik/databaser.md"
+  ]
+}
