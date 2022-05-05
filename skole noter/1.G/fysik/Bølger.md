@@ -19,8 +19,12 @@ $n=\frac{c}{v}$
 ## optiske gittere
 ![[optisk gitter.png]]
 n er ordenens nummer og d er afstanden mellem rillerne på gitteret.
-gitter ligningen *(gitterkonstanten)*:
+gitter ligningen:
 $n\cdot \lambda = d\cdot sin(\phi)$
+
+### antal af ordener
+$n<\frac{d}{\lambda}$
+$n$ er antallet af ordener der kan ses. Det vil sige at antallet af ordener der kan ses altid er lavere end gitterkonstanten divideret med bølgelængden.
 ## brydning mellem to forskellige stoffer
 ![[brydning mellem to stoffer.png]]
 det blå stof har en lavere brydnings index *($n$)* end det grå stof. 
@@ -30,6 +34,9 @@ det blå stof har en lavere brydnings index *($n$)* end det grå stof.
 udfaldsvinkelen er lig med indfaldsvinkelen.
 ### totalreflektion
 total reflektion er når alt lys bliver reflekteret. det sker når  brydningsvinkelen er mindst 90$^\circ$.
+# lyd
+lydens hastighed:
+$v=331\frac{m}{s}v{\cdot}\sqrt{\frac{T}{273K}}$
 # elektromagnetisk spektrum
 ---
 ![[elektromagnetisk spektrum.png]]

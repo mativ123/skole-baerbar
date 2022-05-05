@@ -4,23 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "6299a6d448544b27",
+        "id": "e1e5feaba3abc787",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1.G/fysik/Bølger.md",
+            "file": "1.G/fysik/atome fysik.md",
             "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "e99a282cb8d7e212",
-        "type": "leaf",
-        "state": {
-          "type": "pdf",
-          "state": {
-            "file": "1.G/fysik/lektions pdf'er/bølger/Lektion 4 - Brydning.pdf"
           }
         }
       }
@@ -78,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.G/fysik/Bølger.md",
+                "file": "1.G/fysik/atome fysik.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,6 +86,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "6e3a789261fb8fd6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -105,17 +106,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6299a6d448544b27",
+  "active": "e1e5feaba3abc787",
   "lastOpenFiles": [
+    "1.G/fysik/atome fysik.md",
     "1.G/fysik/Bølger.md",
-    "1.G/fysik/lektions pdf'er/bølger/Lektion 4 - Brydning.pdf",
-    "1.G/engelsk/gothic horror.md",
-    "1.G/fysik/afleveringer/refleksion af lyd - 22 april U16.md",
-    "1.G/fysik/lektions pdf'er/bølger/Lektion 1 - Bølgers egenskaber.pdf",
-    "1.G/fysik/lektions pdf'er/bølger/Lektion 2 - Frekvens, periode og bølgeligningen.pdf",
     "1.G/matematik/cirkelens ligning.md",
-    "Pasted image 20220422104115.png",
+    "1.G/kemi/syre og baser.md",
+    "1.G/matematik/afleveringer/timeopgave II.md",
+    "1.G/matematik/andengradsligninger.md",
+    "1.G/matematik/distance formel.md",
     "1.G/biologi/økosystemer.md",
+    "1.G/matematik/billeder/cirkelens ligning.png",
     "1.G/kemi/organisk kemi.md"
   ]
 }

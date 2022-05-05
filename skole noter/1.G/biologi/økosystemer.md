@@ -16,3 +16,4 @@ i fødekæder er der trofiske nivuaer. det første trofiske niveau er dem som la
 * heterotrofe: spiser andre
 	* plante- og kødædere
 	* svampe
+* kemoautrof: kemisk energi
