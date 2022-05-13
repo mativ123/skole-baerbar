@@ -1,0 +1,15 @@
+#inpDiv
+{
+    width: 15%;
+    margin-right: 85%;
+}
+
+#inpDiv, input
+{
+    float: right;
+}
+
+#inpDiv, #sendBut
+{
+    float: left;
+}

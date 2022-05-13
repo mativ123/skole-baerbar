@@ -3,9 +3,23 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width" />
-        <title>sql side</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <title>balls</title>
     </head>
     <body>
-        <h1>Sej database side</h1>
+        <h1>yndlings instrument undersøgelse</h1>
+        <div id="inpDiv">
+            <label for="fNavn">fornavn</label>
+            <input type="text" placeholder="jens" id="fNavn" name="fNavn">
+            <br>
+            <label for="eNavn">efternavn</label>
+            <input type="text" placeholder="jensen" id="eNavn" name="eNavn">
+            <br>
+            <label for="yInst">yndlings instrument</label>
+            <input type="text" placeholder="melodica" id="yInst" name="yInst">
+            <br><br>
+            <input type="button" name="send" id="sendBut" value="Send">
+        </div>
     </body>
 </html>
