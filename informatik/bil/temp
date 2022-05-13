@@ -1,0 +1,128 @@
+#include <iostream>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+#include <cmath>
+
+SDL_Texture *LoadTexture(std::string filePath, SDL_Renderer *renderTarget)
+{
+    SDL_Texture *texture { nullptr };
+    SDL_Surface *surface { IMG_Load(filePath.c_str()) };
+    if(surface == NULL)
+    {
+        std::cout << "ERROR: " << SDL_GetError() << '\n';
+    } else
+    {
+        texture = SDL_CreateTextureFromSurface(renderTarget, surface);
+    }
+
+    SDL_FreeSurface(surface);
+
+    return texture;
+}
+
+int main(int argc, char *argv[])
+{
+    int windowW { 960 };
+    int windowH { 540 };
+
+    int prevTime { 0 };
+    int currentTime { 0 };
+    float deltaTime { 0.0f };
+
+    SDL_Window *window { nullptr };
+    SDL_Renderer *rendere { nullptr };
+
+    SDL_Init(SDL_INIT_VIDEO);
+    int imgFlags { IMG_INIT_PNG | IMG_INIT_JPG };
+    if(!(IMG_Init(imgFlags) & imgFlags))
+        std::cout << "error: " << IMG_GetError() << '\n';
+
+    window = SDL_CreateWindow("game", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, windowW, windowH, SDL_WINDOW_SHOWN);
+    rendere = SDL_CreateRenderer(window, -1, SDL_RENDERER_PRESENTVSYNC | SDL_RENDERER_ACCELERATED);
+
+    SDL_Texture *bilImg { nullptr };
+    bilImg = LoadTexture("bil.jpg", rendere);
+
+    SDL_Rect bilRect;
+
+    bilRect.x = windowW;
+    bilRect.y = windowH / 2 - 225/2;
+    bilRect.w = bilRect.h = 225;
+
+    float bilSpeed { 0.0f };
+    bool forDrive { false };
+    bool revDrive { false };
+
+    SDL_SetRenderDrawColor(rendere, 255, 255, 255, 255);
+
+    bool isRunning { true };
+    SDL_Event ev;
+
+    while(isRunning)
+    {
+        prevTime = currentTime;
+        currentTime = SDL_GetTicks();
+        deltaTime = (currentTime - prevTime) / 1000.0f;
+
+        while(SDL_PollEvent(&ev) != 0)
+        {
+            if(ev.type == SDL_QUIT)
+            {
+                isRunning = false;
+            } else if(ev.type == SDL_KEYDOWN)
+            {
+                switch(ev.key.keysym.sym)
+                {
+                    case SDLK_w:
+                        forDrive = true;
+                        break;
+                    case SDLK_s:
+                        revDrive = true;
+                        break;
+                }
+            } else if(ev.type == SDL_KEYUP)
+            {
+                switch(ev.key.keysym.sym)
+                {
+                    case SDLK_w:
+                        forDrive = false;
+                        break;
+                    case SDLK_s:
+                        revDrive = false;
+                        break;
+                }
+            }
+        }
+        if(forDrive && revDrive)
+        {
+            std::cout << "both\n";
+            bilSpeed = 0;
+        } else if(forDrive)
+        {
+            std::cout << "w\n";
+            bilSpeed = -10.0f;
+        }else if(revDrive)
+        {
+            std::cout << "s\n";
+            bilSpeed = 10.0f;
+        } else
+        {
+            bilSpeed = 0;
+        }
+        bilRect.x += bilSpeed * deltaTime;
+        SDL_RenderClear(rendere);
+        SDL_RenderCopy(rendere, bilImg, NULL, &bilRect);
+        SDL_RenderPresent(rendere);
+    }
+
+    SDL_DestroyWindow(window);
+    SDL_DestroyRenderer(rendere);
+
+    window = nullptr;
+    rendere = nullptr;
+
+    SDL_Quit();
+    IMG_Quit();
+
+    return 0;
+}

@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "c ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,6 +109,7 @@
   "active": "e1e5feaba3abc787",
   "lastOpenFiles": [
     "1.G/fysik/atome fysik.md",
+    "1.G/fysik/lektions pdf'er/atom fysik/Lektion 1 - Atomets opbygning.pdf",
     "1.G/fysik/Bølger.md",
     "1.G/matematik/cirkelens ligning.md",
     "1.G/kemi/syre og baser.md",
@@ -116,7 +117,6 @@
     "1.G/matematik/andengradsligninger.md",
     "1.G/matematik/distance formel.md",
     "1.G/biologi/økosystemer.md",
-    "1.G/matematik/billeder/cirkelens ligning.png",
-    "1.G/kemi/organisk kemi.md"
+    "1.G/matematik/billeder/cirkelens ligning.png"
   ]
 }

@@ -1,4 +1,5 @@
-
+# bølger
+bølgeligningen: $v=\lambda\cdot f$
 # brydning
 ---
 ## prisme
@@ -10,12 +11,12 @@ $n_1\cdot sin(i)=n_2\cdot sin(b)$
 * $n_1$: brydningindexet på materiale et.
 * $n_2$: brydningindexet på materiale to.
 * $i$: indfaldsvinkelen
-* $b$: brydningsvinkelen
+* $b$: brydningsvinkelen 
 
 $n=\frac{c}{v}$
 * n: brydnings index
 * v: udbreddelseshastigheden *(bølgens hastighed)* 
-* c: lysets hastighed *(konstant)* 
+* c: lysets hastighed *(konstant)* ($c=3.8\cdot10^8$)
 ## optiske gittere
 ![[optisk gitter.png]]
 n er ordenens nummer og d er afstanden mellem rillerne på gitteret.
