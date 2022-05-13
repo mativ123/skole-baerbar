@@ -24,7 +24,7 @@ SDL_Texture *LoadTexture(std::string filePath, SDL_Renderer *renderTarget)
 
 int main(int argc, char *argv[])
 {
-    const float degreesNorm { 0.278 };
+    const float degreesNorm { 1.1111 };
 
     int windowW { 960 };
     int windowH { 540 };
@@ -49,11 +49,11 @@ int main(int argc, char *argv[])
     carImg = LoadTexture("bil.jpg", mainRendere);
 
     SDL_Rect carRect;
-    carRect.w = carRect.h = 255;
+    carRect.w = carRect.h = 255 / 2;
     carRect.x = 0; 
     carRect.y = windowH / 2 - carRect.h / 2;
     float carLength { 1.8f };
-    float drivingSpeed { 5.0f };
+    float drivingSpeed { 500.0f };
     bool drivingFor { false };
     bool drivingRev { false };
     float carXspeed { 0.0f };
@@ -119,15 +119,26 @@ int main(int argc, char *argv[])
         if(drivingFor && drivingRev)
         {
             carXspeed = 0;
-        }else if(drivingFor)
+        }else if(drivingFor && carRot > 0 && carRot < 90)
         {
-            carXspeed = -drivingSpeed - (drivingSpeed * ((carRot * degreesNorm) / 100));
-        } else if(drivingRev)
+            carXspeed = drivingSpeed - (drivingSpeed * ((carRot * degreesNorm) / 100));
+            carYspeed = -drivingSpeed + (drivingSpeed * (((90-carRot) * degreesNorm) / 100));
+        } else if(drivingRev && carRot > 0 && carRot < 90)
         {
-            carXspeed = drivingSpeed;
+            carXspeed = -drivingSpeed + (drivingSpeed * ((carRot * degreesNorm) / 100));
+            carYspeed = drivingSpeed - (drivingSpeed * (((90-carRot) * degreesNorm) / 100));
+        } else if(drivingFor && carRot > 90 && carRot < 180)
+        {
+            carXspeed = -drivingSpeed + (drivingSpeed * (((carRot - 90) * degreesNorm) / 100));
+            carYspeed = -drivingSpeed + (drivingSpeed * (((90-(carRot - 90)) * degreesNorm) / 100));
+        } else if(drivingRev && carRot > 90 && carRot < 180)
+        {
+            carXspeed = drivingSpeed - (drivingSpeed * (((carRot - 90) * degreesNorm) / 100));
+            carYspeed = drivingSpeed - (drivingSpeed * (((90-(carRot - 90)) * degreesNorm) / 100));
         } else
         {
             carXspeed = 0;
+            carYspeed = 0;
         }
 
         if(rotLeft && rotRight)
@@ -135,17 +146,27 @@ int main(int argc, char *argv[])
             carRot += 0;
         } else if(rotLeft)
         {
-            carRot -= 25 * deltaTime;
+            carRot -= 50 * deltaTime;
         } else if(rotRight)
         {
-            carRot += 25 * deltaTime;
+            carRot += 50 * deltaTime;
         } else
         {
             carRot += 0;
         }
 
+        if(carRot > 360)
+        {
+            carRot = 0;
+        } else if(carRot < 0)
+        {
+            carRot = 360;
+        }
+
+        std::cout << carXspeed << '\n';
+
         carRect.y += carYspeed * deltaTime;
-        carRect.x += carXspeed;
+        carRect.x -= carXspeed * deltaTime;
 
         SDL_RenderCopyEx(mainRendere, carImg, NULL, &carRect, carRot, NULL, SDL_FLIP_NONE);
         SDL_RenderPresent(mainRendere);
