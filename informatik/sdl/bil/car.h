@@ -64,9 +64,38 @@ class CarClass
                 carRot = 360;
             }
 
-            std::cout << carXspeed << '\n';
-
             carRect.y += carYspeed * deltaTime;
             carRect.x -= carXspeed * deltaTime;
         }
 };
+
+ class SelfDriving
+ {
+     public:
+         SDL_Texture *carImg;
+
+         SDL_Rect carRect;
+         float carLength;
+         float drivingSpeed;
+         bool drivingFor;
+         bool drivingRev;
+         float carXspeed;
+         float carYspeed;
+         float carRot;
+         bool rotLeft;
+         bool rotRight;
+
+         void selfDrive(CarClass target,float deltaTime,float pi)
+         {
+            float tempX { static_cast<float>(target.carRect.x - carRect.y) };
+            float tempY { static_cast<float>(target.carRect.y - carRect.y) };
+            carRot = atan2(tempY, tempX) * (180/pi);
+            carRot += 180;
+
+            carXspeed = drivingSpeed * cos(carRot*pi/180);
+            carYspeed = -(drivingSpeed * sin(carRot*pi/180));
+
+            carRect.y += carYspeed * deltaTime;
+            carRect.x -= carXspeed * deltaTime;
+         }
+ };

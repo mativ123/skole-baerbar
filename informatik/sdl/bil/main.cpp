@@ -31,8 +31,16 @@ int main(int argc, char *argv[])
 
     SDL_SetRenderDrawColor(mainRendere, 255, 255, 255, 255);
 
-    SDL_Texture *carImg { nullptr };
-    carImg = LoadTexture("0.png", mainRendere);
+    SDL_Rect cameraRect;
+    cameraRect.w = windowW;
+    cameraRect.h = windowH;
+    cameraRect.x = cameraRect.y = 50;
+
+    SDL_Texture *map;
+    map = LoadTexture("earth.jpg", mainRendere);
+    SDL_Rect mapRect;
+    SDL_QueryTexture(map, NULL, NULL, &mapRect.w, &mapRect.h);
+    mapRect.x = mapRect.y = 0;
 
     CarClass car0;
     car0.carRect.w = 128;
@@ -64,6 +72,21 @@ int main(int argc, char *argv[])
     car1.carYspeed = 0.0f;
     car1.carRot = 0.0f;
     car1.rotLeft = false;
+
+    SelfDriving self1;
+    self1.carRect.w = 128;
+    self1.carRect.h = 77;
+    self1.carRect.x = windowW / 2 - 128 / 2; 
+    self1.carRect.y = windowH / 2 - car0.carRect.h / 2;
+    self1.carImg = LoadTexture("2.png", mainRendere);
+    self1.carLength = 1.8f;
+    self1.drivingSpeed = 250.0f;
+    self1.drivingFor = false;
+    self1.drivingRev = false;
+    self1.carXspeed = 0.0f;
+    self1.carYspeed = 0.0f;
+    self1.carRot = 0.0f;
+    self1.rotLeft = false;
 
     SDL_Event ev;
     bool isRunning { true };
@@ -141,25 +164,36 @@ int main(int argc, char *argv[])
                 car1.carXspeed = 0;
             }
         }
+        //std::cout << self1.carRot << '\n';
 
         SDL_RenderClear(mainRendere);
 
         car0.drive(deltaTime, pi);
         car1.drive(deltaTime, pi);
+        self1.selfDrive(car0, deltaTime, pi);
 
+
+        SDL_RenderCopy(mainRendere, map, &cameraRect, &mapRect);
         SDL_RenderCopyEx(mainRendere, car0.carImg, NULL, &car0.carRect, car0.carRot, NULL, SDL_FLIP_NONE);
         SDL_RenderCopyEx(mainRendere, car1.carImg, NULL, &car1.carRect, car1.carRot, NULL, SDL_FLIP_NONE);
+        SDL_RenderCopyEx(mainRendere, self1.carImg, NULL, &self1.carRect, self1.carRot, NULL, SDL_FLIP_NONE);
         SDL_RenderPresent(mainRendere);
     }
 
     //cleanup
     SDL_DestroyWindow(mainWindow);
     SDL_DestroyRenderer(mainRendere);
-    SDL_DestroyTexture(carImg);
+    SDL_DestroyTexture(car0.carImg);
+    SDL_DestroyTexture(car1.carImg);
+    SDL_DestroyTexture(self1.carImg);
+    SDL_DestroyTexture(map);
 
     mainWindow = nullptr;
     mainRendere = nullptr;
-    carImg = nullptr;
+    car0.carImg = nullptr;
+    car1.carImg = nullptr;
+    self1.carImg = nullptr;
+    map = nullptr;
 
     SDL_Quit();
     IMG_Quit();
