@@ -4,15 +4,16 @@ class CarClass
         SDL_Texture *carImg;
 
         SDL_Rect carRect;
-        float carLength;
-        float drivingSpeed;
-        bool drivingFor;
-        bool drivingRev;
-        float carXspeed;
-        float carYspeed;
-        float carRot;
-        bool rotLeft;
-        bool rotRight;
+        SDL_Rect drawingRect;
+        float carLength { 1.8f };
+        float drivingSpeed { 250.0f };
+        bool drivingFor { false };
+        bool drivingRev { false };
+        float carXspeed { 0.0f };
+        float carYspeed { 0.0f };
+        float carRot { 0.0f };
+        bool rotLeft { false };
+        bool rotRight { false };
 
         void drive(float deltaTime, float pi)
         {
@@ -67,29 +68,41 @@ class CarClass
             carRect.y += carYspeed * deltaTime;
             carRect.x -= carXspeed * deltaTime;
         }
+
+        void draw(SDL_Renderer *mainRendere, SDL_Rect cameraRect)
+        {
+            drawingRect = { carRect.x - cameraRect.x, carRect.y - cameraRect.y, carRect.w, carRect.h };
+            SDL_RenderCopyEx(mainRendere, carImg, NULL, &drawingRect, carRot, NULL, SDL_FLIP_NONE);
+        }
 };
 
  class SelfDriving
  {
      public:
-         SDL_Texture *carImg;
+        SDL_Texture *carImg;
 
-         SDL_Rect carRect;
-         float carLength;
-         float drivingSpeed;
-         bool drivingFor;
-         bool drivingRev;
-         float carXspeed;
-         float carYspeed;
-         float carRot;
-         bool rotLeft;
-         bool rotRight;
+        SDL_Rect carRect;
+        SDL_Rect drawingRect;
+        ColorRGBA lineColor;
+        float carLength { 1.8f };
+        float drivingSpeed { 250.0f };
+        bool drivingFor { false };
+        bool drivingRev { false };
+        float carXspeed { 0.0f };
+        float carYspeed { 0.0f };
+        float carRot { 0.0f };
+        bool rotLeft { false };
+        bool rotRight { false };
 
-         void selfDrive(CarClass target,float deltaTime,float pi)
-         {
-            float tempX { static_cast<float>(target.carRect.x - carRect.y) };
+        void selfDrive(CarClass target, float deltaTime,float pi)
+        {
+            float tempX { static_cast<float>(target.carRect.x - carRect.x) };
             float tempY { static_cast<float>(target.carRect.y - carRect.y) };
             carRot = atan2(tempY, tempX) * (180/pi);
+            if(carRot < 0)
+            {
+                carRot = 360 - (-carRot);
+            }
             carRot += 180;
 
             carXspeed = drivingSpeed * cos(carRot*pi/180);
@@ -97,5 +110,12 @@ class CarClass
 
             carRect.y += carYspeed * deltaTime;
             carRect.x -= carXspeed * deltaTime;
-         }
+        }
+
+        void draw(SDL_Renderer *mainRendere, SDL_Rect cameraRect, CarClass target)
+        {
+            drawingRect = { carRect.x - cameraRect.x, carRect.y - cameraRect.y, carRect.w, carRect.h };
+            SDL_RenderCopyEx(mainRendere, carImg, NULL, &drawingRect, carRot, NULL, SDL_FLIP_NONE);
+            thickLineRGBA(mainRendere, target.drawingRect.x + target.carRect.w / 2, target.drawingRect.y + target.carRect.h / 2, drawingRect.x + carRect.w / 2, drawingRect.y + carRect.h / 2, 5, lineColor.r, lineColor.g, lineColor.b, lineColor.a);
+        }
  };
