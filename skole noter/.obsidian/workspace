@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1.G/fysik/atome fysik.md",
+            "file": "1.G/biologi/økosystemer.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.G/fysik/atome fysik.md",
+                "file": "1.G/biologi/økosystemer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +108,7 @@
   },
   "active": "e1e5feaba3abc787",
   "lastOpenFiles": [
+    "1.G/biologi/økosystemer.md",
     "1.G/fysik/atome fysik.md",
     "1.G/fysik/lektions pdf'er/atom fysik/Lektion 1 - Atomets opbygning.pdf",
     "1.G/fysik/Bølger.md",
@@ -116,7 +117,6 @@
     "1.G/matematik/afleveringer/timeopgave II.md",
     "1.G/matematik/andengradsligninger.md",
     "1.G/matematik/distance formel.md",
-    "1.G/biologi/økosystemer.md",
     "1.G/matematik/billeder/cirkelens ligning.png"
   ]
 }
