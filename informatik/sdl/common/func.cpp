@@ -14,5 +14,3 @@ SDL_Texture *LoadTexture(std::string filePath, SDL_Renderer *renderTarget)
 
     return texture;
 }
-
-

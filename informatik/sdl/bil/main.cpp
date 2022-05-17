@@ -4,6 +4,7 @@
 
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
+#include <SDL2/SDL2_gfxPrimitives.h>
 
 #include "include.h"
 
@@ -37,7 +38,7 @@ int main(int argc, char *argv[])
     cameraRect.x = cameraRect.y = 50;
 
     SDL_Texture *map;
-    map = LoadTexture("earth.jpg", mainRendere);
+    map = LoadTexture("track.png", mainRendere);
     SDL_Rect mapRect;
     SDL_QueryTexture(map, NULL, NULL, &mapRect.w, &mapRect.h);
     mapRect.x = mapRect.y = 0;
@@ -48,15 +49,6 @@ int main(int argc, char *argv[])
     car0.carRect.x = 0; 
     car0.carRect.y = windowH / 2 - car0.carRect.h / 2;
     car0.carImg = LoadTexture("0.png", mainRendere);
-    car0.carLength = 1.8f;
-    car0.drivingSpeed = 250.0f;
-    car0.drivingFor = false;
-    car0.drivingRev = false;
-    car0.carXspeed = 0.0f;
-    car0.carYspeed = 0.0f;
-    car0.carRot = 0.0f;
-    car0.rotLeft = false;
-    car0.rotRight = false;
 
     CarClass car1;
     car1.carRect.w = 128;
@@ -64,29 +56,24 @@ int main(int argc, char *argv[])
     car1.carRect.x = 0; 
     car1.carRect.y = windowH / 2 - car0.carRect.h / 2;
     car1.carImg = LoadTexture("1.png", mainRendere);
-    car1.carLength = 1.8f;
-    car1.drivingSpeed = 250.0f;
-    car1.drivingFor = false;
-    car1.drivingRev = false;
-    car1.carXspeed = 0.0f;
-    car1.carYspeed = 0.0f;
-    car1.carRot = 0.0f;
-    car1.rotLeft = false;
+
+    SelfDriving self0;
+    self0.carRect.w = 128;
+    self0.carRect.h = 77;
+    self0.carRect.x = windowW / 2 - self0.carRect.w / 2; 
+    self0.carRect.y = windowH / 2 - self0.carRect.h / 2;
+    self0.carImg = LoadTexture("2.png", mainRendere);
+    self0.drivingSpeed = 200;
+    self0.lineColor = { 255, 0, 0, 255 };
 
     SelfDriving self1;
     self1.carRect.w = 128;
     self1.carRect.h = 77;
-    self1.carRect.x = windowW / 2 - 128 / 2; 
-    self1.carRect.y = windowH / 2 - car0.carRect.h / 2;
-    self1.carImg = LoadTexture("2.png", mainRendere);
-    self1.carLength = 1.8f;
-    self1.drivingSpeed = 250.0f;
-    self1.drivingFor = false;
-    self1.drivingRev = false;
-    self1.carXspeed = 0.0f;
-    self1.carYspeed = 0.0f;
-    self1.carRot = 0.0f;
-    self1.rotLeft = false;
+    self1.carRect.x = windowW / 2 - self1.carRect.w / 2; 
+    self1.carRect.y = windowH / 2 - self1.carRect.h / 2;
+    self1.carImg = LoadTexture("3.png", mainRendere);
+    self1.drivingSpeed = 200;
+    self1.lineColor = { 0, 0, 255, 255 };
 
     SDL_Event ev;
     bool isRunning { true };
@@ -164,19 +151,33 @@ int main(int argc, char *argv[])
                 car1.carXspeed = 0;
             }
         }
-        //std::cout << self1.carRot << '\n';
+        //std::cout << self0.carRot << '\n';
 
         SDL_RenderClear(mainRendere);
 
         car0.drive(deltaTime, pi);
         car1.drive(deltaTime, pi);
-        self1.selfDrive(car0, deltaTime, pi);
+        self0.selfDrive(car0, deltaTime, pi);
+        self1.selfDrive(car1, deltaTime, pi);
 
+        cameraRect.x = car0.carRect.x - windowW / 2;
+        cameraRect.y = car0.carRect.y - windowH / 2;
 
-        SDL_RenderCopy(mainRendere, map, &cameraRect, &mapRect);
-        SDL_RenderCopyEx(mainRendere, car0.carImg, NULL, &car0.carRect, car0.carRot, NULL, SDL_FLIP_NONE);
-        SDL_RenderCopyEx(mainRendere, car1.carImg, NULL, &car1.carRect, car1.carRot, NULL, SDL_FLIP_NONE);
-        SDL_RenderCopyEx(mainRendere, self1.carImg, NULL, &self1.carRect, self1.carRot, NULL, SDL_FLIP_NONE);
+        if(cameraRect.x < 0)
+            cameraRect.x = 0;
+        if(cameraRect.y < 0)
+            cameraRect.y = 0;
+
+        if(cameraRect.x + cameraRect.w >= mapRect.w)
+            cameraRect.x = mapRect.w - windowW;
+        if(cameraRect.y + cameraRect.h >= mapRect.h)
+            cameraRect.y = mapRect.h - windowH;
+
+        SDL_RenderCopy(mainRendere, map, &cameraRect, NULL);
+        car0.draw(mainRendere, cameraRect);
+        car1.draw(mainRendere, cameraRect);
+        self0.draw(mainRendere, cameraRect, car0);
+        self1.draw(mainRendere, cameraRect, car1);
         SDL_RenderPresent(mainRendere);
     }
 
@@ -185,14 +186,14 @@ int main(int argc, char *argv[])
     SDL_DestroyRenderer(mainRendere);
     SDL_DestroyTexture(car0.carImg);
     SDL_DestroyTexture(car1.carImg);
-    SDL_DestroyTexture(self1.carImg);
+    SDL_DestroyTexture(self0.carImg);
     SDL_DestroyTexture(map);
 
     mainWindow = nullptr;
     mainRendere = nullptr;
     car0.carImg = nullptr;
     car1.carImg = nullptr;
-    self1.carImg = nullptr;
+    self0.carImg = nullptr;
     map = nullptr;
 
     SDL_Quit();
