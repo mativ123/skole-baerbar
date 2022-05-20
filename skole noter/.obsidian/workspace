@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e1e5feaba3abc787",
+        "id": "e4cd4e88acce9a4b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "1.G/fysik/atome fysik.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.G/fysik/atome fysik.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,17 +102,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e1e5feaba3abc787",
+  "active": "e4cd4e88acce9a4b",
   "lastOpenFiles": [
-    "1.G/fysik/atome fysik.md",
-    "1.G/fysik/lektions pdf'er/atom fysik/Lektion 1 - Atomets opbygning.pdf",
-    "1.G/fysik/Bølger.md",
     "1.G/matematik/cirkelens ligning.md",
-    "1.G/kemi/syre og baser.md",
-    "1.G/matematik/afleveringer/timeopgave II.md",
+    "1.G/fysik/Bølger.md",
+    "1.G/fysik/lektions pdf'er/bølger/Lektion 4 - Brydning.pdf",
+    "1.G/fysik/lektions pdf'er/bølger/Lektion 1 - Bølgers egenskaber.pdf",
+    "1.G/fysik/atome fysik.md",
+    "1.G/matematik/eksponentielle funktioner.md",
     "1.G/matematik/andengradsligninger.md",
-    "1.G/matematik/distance formel.md",
-    "1.G/biologi/økosystemer.md",
-    "1.G/matematik/billeder/cirkelens ligning.png"
+    "1.G/fysik/billeder/elektromagnetisk spektrum.png",
+    "1.G/fysik/opgaver/atom fysik/lektion 3 - Borhs atommodel.md",
+    "1.G/fysik/billeder/heliumatom i grundtilstand.png"
   ]
 }

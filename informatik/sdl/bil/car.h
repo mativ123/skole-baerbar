@@ -1,3 +1,4 @@
+
 class CarClass
 {
     public:
@@ -64,6 +65,7 @@ class CarClass
             {
                 carRot = 360;
             }
+            if(SDL_GetP)
 
             carRect.y += carYspeed * deltaTime;
             carRect.x -= carXspeed * deltaTime;

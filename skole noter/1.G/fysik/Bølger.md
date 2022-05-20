@@ -1,5 +1,8 @@
 # bølger
 bølgeligningen: $v=\lambda\cdot f$
+$v$: udbredelseshastighed
+$\lambda$: bølgelængde
+$f$: frekvens
 # brydning
 ---
 ## prisme
