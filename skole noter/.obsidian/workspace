@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "e4cd4e88acce9a4b",
+        "id": "097faedbfb2d1ed4",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "1.G/matematik/eksponentielle funktioner.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -36,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "c ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1.G/matematik/eksponentielle funktioner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,17 +106,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e4cd4e88acce9a4b",
+  "active": "097faedbfb2d1ed4",
   "lastOpenFiles": [
-    "1.G/matematik/cirkelens ligning.md",
-    "1.G/fysik/Bølger.md",
-    "1.G/fysik/lektions pdf'er/bølger/Lektion 4 - Brydning.pdf",
-    "1.G/fysik/lektions pdf'er/bølger/Lektion 1 - Bølgers egenskaber.pdf",
-    "1.G/fysik/atome fysik.md",
     "1.G/matematik/eksponentielle funktioner.md",
+    "1.G/matematik/cirkelens ligning.md",
+    "1.G/matematik/pdf' er/Matematik A.Formelsamling.pdf",
     "1.G/matematik/andengradsligninger.md",
-    "1.G/fysik/billeder/elektromagnetisk spektrum.png",
-    "1.G/fysik/opgaver/atom fysik/lektion 3 - Borhs atommodel.md",
-    "1.G/fysik/billeder/heliumatom i grundtilstand.png"
+    "1.G/matematik/distance formel.md",
+    "1.G/fysik/atom fysik.md",
+    "1.G/fysik/opgaver/atom fysik/lektion 5.md",
+    "1.G/fysik/Bølger.md",
+    "1.G/fysik/billeder/opg f lek 5 af.png",
+    "1.G/fysik/billeder/opg f lek 5 af.png"
   ]
 }
