@@ -1,6 +1,6 @@
 # spørgsmål 1: geometri og trigonometri
 ## a)
-[[trigonometri]] brug enhedscirklen til at forklare hvad de forskellige begreber er og hvordan de fungere
+[[trigonometri]]. Tegn et koordinatsystem med en [[trigonometri#enhedscirklen|enhedscirklen]]. tegn linjen som går igennem origo og skære cirklens periferi. tegn skæringspunktet. forklar hvordan y'et er sinus af vinkelen $v$ og x'et er cosinus. vis med linjer. tegn tangenten. nævn at de to trekanter er ligedannede. forklar at punktet hvor linjen med vinkelen $v$ skære tangentens y er tangens af $v$.
 ## b)
 [[trigonometri]] brug sinus og cosinus relationerne til at vise hvordan man kan løse trekanter. måske nærlæs [[Matematik A.Geometri og trigonometri.08 Cosinusrelationerne.pdf]] og [[Matematik A.Geometri og trigonometri.07 Sinusrelationerne.pdf]].
 - - -
@@ -8,7 +8,7 @@
 ## a)
 [[#a]] *(samme spørgsmål som før)*
 ## b)
-ikke færdig
+[[geometri#cirkler]]. tegn en cirkel hvor [[geometri#korde|korde]], [[geometri#cirkeludsnit|cirkeludsnit]], [[geometri#cirkelafsnit|cirkelafsnit]] og [[geometri#pilhøjde|pilhøjde]]. forklar begreberne hen ad vejen og husk at indføre radius og vinkelhalveringslinjen, som er $k$'s midtnormal *(er ortogonal og deler den i to lige store dele)*. 
 - - -
 # spørgsmål 3: plangeometri
 ## a)
