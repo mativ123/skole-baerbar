@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "097faedbfb2d1ed4",
+        "id": "4f6a95fcc09ea49b",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "1.G/matematik/eksponentielle funktioner.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.G/matematik/eksponentielle funktioner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,17 +102,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "097faedbfb2d1ed4",
+  "active": "4f6a95fcc09ea49b",
   "lastOpenFiles": [
-    "1.G/matematik/eksponentielle funktioner.md",
-    "1.G/matematik/cirkelens ligning.md",
+    "1.G/matematik/eksames spørgsmål 2022.md",
+    "1.G/matematik/enkeltlogaritmisk koordinatsystem.md",
+    "1.G/matematik/logaritmer.md",
     "1.G/matematik/pdf' er/Matematik A.Formelsamling.pdf",
-    "1.G/matematik/andengradsligninger.md",
+    "1.G/matematik/eksponentielle funktioner.md",
+    "1.G/matematik/pdf' er/Eksamensspørgsmål 2022.pdf",
+    "Untitled.md",
+    "1.G/matematik/cirkelens ligning.md",
     "1.G/matematik/distance formel.md",
-    "1.G/fysik/atom fysik.md",
-    "1.G/fysik/opgaver/atom fysik/lektion 5.md",
-    "1.G/fysik/Bølger.md",
-    "1.G/fysik/billeder/opg f lek 5 af.png",
-    "1.G/fysik/billeder/opg f lek 5 af.png"
+    "1.G/matematik/trigonometri.md"
   ]
 }

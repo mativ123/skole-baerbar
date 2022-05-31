@@ -6,9 +6,16 @@ $f(x)=b\cdot1.4^x$
 den stiger med 40%.
 $f(x)=b\cdot2.3^x$
 den stiger med 130%
+denne værdi hedder $r$
 
-# halveringskonstant
+# fordobling- og halveringskonstant
+## halvering
+![[halveringskonstant.png]]
 $T_{\frac{1}{2}}=\frac{log(\frac{1}{2})}{log(a)}$
+## fordobling
+![[fordoblingskonstant.png]]
+$T_2=\frac{log(2)}{log(a)}$
 
+# variabler
 $a=\sqrt[x_2-x_1]{\frac{y_2}{y_1}}$
-![](https://cdn.discordapp.com/attachments/951745520584503356/976774405323624480/unknown.png)
+$b=\frac{y}{a^x}$

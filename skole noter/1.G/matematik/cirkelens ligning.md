@@ -67,21 +67,28 @@ Ingen skæringspunkter mellem cirkel og linje.
 vis [[distance formel|distancen]] mellem centrum og linje er større end $r$. Eller:
 $\text{dist}(l,c)>r$
 
-## udregning
+## udregning af skæringspunkt
+man indsætter linjens ligning ind på $y$'s plads i cirklens ligning, og for en andengradsligning. den udregner man så.
 $\text{dist}(l,c)$
 $c:(x-1)^2+(y-4)^2=50$
 $l:4x-2y+4=0$
-*isolere l*
+*isolere y*
 $2y=4x+14$
 $y=2x+7$
 *indsætter på y's plads*
 $(x-1)^2+(2x+7-4)^2=50$
+*ophæver parenteserne med den anden kvadrat sætning*
 $x^2-2x+1+4x^2+9+12x=50$
-$\frac{5x^2}{5}+\frac{10x}{5}-\frac{40}{5}\Leftrightarrow x^2+2x-8=0$
+$x^2-2x+1+4x^2+9+12x-50=0$
+$x^2+4x^2+12x-2x+1+9-50=0$
+*forkorter*
+$\frac{5x^2}{5}+\frac{10x}{5}-\frac{40}{5}=0$
+$x^2+2x-8=0$
 *løs [[andengradsligninger|andengradligningen]]*
 $d=2^2-4\cdot 1\cdot (-8)=36$
 $x=\frac{-2\pm\sqrt{36}}{2\cdot1}$
 $x=\frac{-2\pm6}{2}=2,-4$
+skæringspunktet er $(2,-4)$
 
 # kilde
 ---
