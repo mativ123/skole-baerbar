@@ -9,5 +9,6 @@
     "downscalePercent": 100
   },
   "promptDelete": true,
-  "legacyEditor": false
+  "legacyEditor": false,
+  "livePreview": true
 }

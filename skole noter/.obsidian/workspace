@@ -4,12 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "4f6a95fcc09ea49b",
+        "id": "bf1177c011d781f5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1.G/fysik/eksamen/refleksion af lyd/fremlæggelse.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "a0cb39330380fcbb",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1.G/fysik/afleveringer/refleksion af lyd - 22 april U16.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "554973189eb26c42",
         "type": "leaf",
         "state": {
           "type": "pdf",
           "state": {
-            "file": "1.G/biologi/eksamen/Eksamensspørgsmål 2022 -1C- biologi C -uden bilag_UDKAST.pdf"
+            "file": "1.G/fysik/eksamen/refleksion af lyd/Refleksion af lyd.pdf"
           }
         }
       }
@@ -67,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.G/biologi/eksamen/Eksamensspørgsmål 2022 -1C- biologi C -uden bilag_UDKAST.pdf",
+                "file": "1.G/fysik/eksamen/refleksion af lyd/fremlæggelse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4f6a95fcc09ea49b",
+  "active": "bf1177c011d781f5",
   "lastOpenFiles": [
-    "1.G/biologi/eksamen/Eksamensspørgsmål 2022 -1C- biologi C -uden bilag_UDKAST.pdf",
-    "1.G/biologi/eksamen/forsøg/Eksamensforberedelse biologi C_nedbrydning af stivelse.pdf",
-    "1.G/biologi/eksamen/forsøg/Eksamensforberedelse biologi C_mikroskopi af sædceller.pdf",
-    "1.G/biologi/eksamen/forsøg/Eksamensforberedelse biologi C_gærs vækst1.pdf",
-    "1.G/biologi/eksamen/forsøg/Eksamensforberedelse biologi C_blodtryk.pdf",
-    "1.G/biologi/eksamen/forsøg/Biologi C eksamensinfo 2022.pdf",
-    "1.G/biologi/Links.md",
-    "1.G/biologi/celler.md",
-    "1.G/matematik/pdf' er/Eksamensspørgsmål 2022.pdf",
-    "Industriel udnyttelse af Mikroorganismer.pdf.md"
+    "1.G/fysik/eksamen/refleksion af lyd/fremlæggelse.md",
+    "1.G/fysik/afleveringer/refleksion af lyd - 22 april U16.md",
+    "1.G/fysik/eksamen/refleksion af lyd/Refleksion af lyd.pdf",
+    "1.G/fysik/eksamen/alternative isterninger/Fremlæggelse.md",
+    "1.G/fysik/grundforløb.md",
+    "1.G/fysik/eksamen/alternative isterninger/alternative isterninger.pdf",
+    "1.G/fysik/lektions pdf'er/Lektion 0 - Opsummering af Grundforløbet.pdf",
+    "1.G/fysik/eksamen/alternative isterninger/Alternative isterninger.pdf",
+    "1.G/fysik/eksamen/1c årsprøve fysik b.pdf",
+    "1.G/biologi/eksamen/Kost, sundhed og motion/Øvelsesvejledning_Måling af blodtryk.pdf"
   ]
 }
