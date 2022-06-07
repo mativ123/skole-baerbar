@@ -4,36 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "bf1177c011d781f5",
+        "id": "7bc147fb3dd3c39c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1.G/fysik/eksamen/refleksion af lyd/fremlæggelse.md",
+            "file": "1.G/fysik/eksamen/alternative isterninger/Fremlæggelse.md",
             "mode": "source",
             "source": false
-          }
-        }
-      },
-      {
-        "id": "a0cb39330380fcbb",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "1.G/fysik/afleveringer/refleksion af lyd - 22 april U16.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "554973189eb26c42",
-        "type": "leaf",
-        "state": {
-          "type": "pdf",
-          "state": {
-            "file": "1.G/fysik/eksamen/refleksion af lyd/Refleksion af lyd.pdf"
           }
         }
       }
@@ -91,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.G/fysik/eksamen/refleksion af lyd/fremlæggelse.md",
+                "file": "1.G/fysik/eksamen/alternative isterninger/Fremlæggelse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,17 +107,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bf1177c011d781f5",
+  "active": "7bc147fb3dd3c39c",
   "lastOpenFiles": [
-    "1.G/fysik/eksamen/refleksion af lyd/fremlæggelse.md",
-    "1.G/fysik/afleveringer/refleksion af lyd - 22 april U16.md",
-    "1.G/fysik/eksamen/refleksion af lyd/Refleksion af lyd.pdf",
     "1.G/fysik/eksamen/alternative isterninger/Fremlæggelse.md",
-    "1.G/fysik/grundforløb.md",
     "1.G/fysik/eksamen/alternative isterninger/alternative isterninger.pdf",
-    "1.G/fysik/lektions pdf'er/Lektion 0 - Opsummering af Grundforløbet.pdf",
-    "1.G/fysik/eksamen/alternative isterninger/Alternative isterninger.pdf",
-    "1.G/fysik/eksamen/1c årsprøve fysik b.pdf",
-    "1.G/biologi/eksamen/Kost, sundhed og motion/Øvelsesvejledning_Måling af blodtryk.pdf"
+    "1.G/fysik/afleveringer/refleksion af lyd - 22 april U16.md",
+    "1.G/fysik/eksamen/refleksion af lyd/fremlæggelse.md",
+    "1.G/fysik/lektions pdf'er/bølger/Lektion 4 - Brydning.pdf",
+    "1.G/fysik/lektions pdf'er/bølger/Lektion 3 - Det elektromagnetiske spektrum.pdf",
+    "1.G/fysik/lektions pdf'er/bølger/Lektion 2 - Frekvens, periode og bølgeligningen.pdf",
+    "1.G/fysik/lektions pdf'er/bølger/Lektion 1 - Bølgers egenskaber.pdf",
+    "1.G/fysik/Bølger.md",
+    "1.G/fysik/eksamen/refleksion af lyd/Refleksion af lyd.pdf"
   ]
 }
