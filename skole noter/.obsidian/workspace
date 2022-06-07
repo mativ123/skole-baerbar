@@ -7,8 +7,12 @@
         "id": "4f6a95fcc09ea49b",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "1.G/matematik/eksponentielle funktioner.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1.G/matematik/eksponentielle funktioner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,15 +109,15 @@
   },
   "active": "4f6a95fcc09ea49b",
   "lastOpenFiles": [
+    "1.G/matematik/eksponentielle funktioner.md",
     "1.G/matematik/eksames spørgsmål 2022.md",
+    "1.G/matematik/cirkelens ligning.md",
+    "1.G/matematik/distance formel.md",
     "1.G/matematik/trigonometri.md",
+    "1.G/matematik/enkeltlogaritmisk koordinatsystem.md",
     "1.G/matematik/geometri.md",
     "1.G/matematik/billeder/cirkeludsnit.png",
     "1.G/matematik/billeder/cirkeludsnit.png",
-    "1.G/matematik/pdf' er/Eksamensspørgsmål 2022.pdf",
-    "1.G/matematik/enkeltlogaritmisk koordinatsystem.md",
-    "1.G/matematik/logaritmer.md",
-    "1.G/matematik/pdf' er/Matematik A.Formelsamling.pdf",
-    "1.G/matematik/eksponentielle funktioner.md"
+    "1.G/matematik/pdf' er/Eksamensspørgsmål 2022.pdf"
   ]
 }

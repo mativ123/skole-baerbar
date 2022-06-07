@@ -8,11 +8,11 @@
 ## a)
 [[#a]] *(samme spørgsmål som før)*
 ## b)
-[[geometri#cirkler]]. tegn en cirkel hvor [[geometri#korde|korde]], [[geometri#cirkeludsnit|cirkeludsnit]], [[geometri#cirkelafsnit|cirkelafsnit]] og [[geometri#pilhøjde|pilhøjde]]. forklar begreberne hen ad vejen og husk at indføre radius og vinkelhalveringslinjen, som er $k$'s midtnormal *(er ortogonal og deler den i to lige store dele)*. 
+[[geometri#cirkler]]. tegn en cirkel hvor [[geometri#korde|korde]], [[geometri#cirkeludsnit|cirkeludsnit]], [[geometri#cirkelafsnit|cirkelafsnit]] og [[geometri#pilhøjde|pilhøjde]] er til stede. forklar begreberne hen ad vejen og husk at indføre radius og vinkelhalveringslinjen, som er $k$'s midtnormal *(er ortogonal og deler den i to lige store dele)*. 
 - - -
 # spørgsmål 3: plangeometri
 ## a)
-[[ret linje]]. tegn en ret linje på et koordinatsystem og marker de forskellige egenskaber *(skæring med y aksen, hældningskoefficienten*. konstruer herefter en ligning på den rette linje. beskriv hvad de forskellige variabler gør. tal lidt om ortogonalitet og skæring. ortogonalitet har priotet.
+[[ret linje]]. tegn en ret linje på et koordinatsystem og marker de forskellige egenskaber *(skæring med y aksen, hældningskoefficienten)*. konstruer herefter en ligning på den rette linje. beskriv hvad de forskellige variabler gør. tal lidt om ortogonalitet og skæring. ortogonalitet har priotet.
 ## b)
 [[distance formel]]. tegn et koordinat system. tegn et punkt og en linje. indtegn ligningen for linjen og punktets koordinater.  tegn en linje fra punktet til linjen som går ortogonalt på og skriv $\text{dist}(P,l)$ over den *(husk at marker at vinkelen er 90 grader)*. skriv formlen til at udregning op. måske løs. 
 - - -
