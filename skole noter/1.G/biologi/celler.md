@@ -3,7 +3,7 @@
 cytoplasmaen består af cytosolen som er en vandig væske som findes inde i væsken, og alle cellens strukture.
 # prokaryote
 ---
-Ingen cellekerne. Derfor flyder deres arvemateriale rundt i cellens cytosol. Arvematerialet er dna. Altid encellet og ingen egentlige organeller.
+Ingen cellekerne. Derfor flyder deres arvemateriale rundt i cellens cytosol. Arvematerialet er [[DNA og RNA#DNA https biologiiudvikling ibog nucleus dk id 154|DNA]]. Altid encellet og ingen egentlige organeller.
 
 ## [Archaea](https://biologibogenc.systime.dk/?id=496)
 ### Termofile
@@ -28,9 +28,9 @@ En bakterie har en celle væg uden på cellemembranen som består af et bestemt 
 * Ribosomer
 	  Organel som katalyserer syntesen af proteiner.
 * Arvemateriale
-	  DNA pakket i en ringformet kromosom.
+	   [[DNA og RNA#DNA https biologiiudvikling ibog nucleus dk id 154|DNA]] pakket i en ringformet kromosom.
 * plasmider
-	  små DNA stykker som ikke indeholder livsnødvendige gener.
+	  små  [[DNA og RNA#DNA https biologiiudvikling ibog nucleus dk id 154|DNA]] stykker som ikke indeholder livsnødvendige gener.
 * kapsel
 	  kun enkelte har dem. Beskytter mod ydre påvirkning.
 * flagel/pili
@@ -51,7 +51,7 @@ Har en cellekerne. Er i gennemsnit ti gange så stor som en prokaryot.
 ![[dyrecelle.png]]
 alle Eukaryote celler har et cytoskelet som består af forskellige fibre opholder strukturen i cellen. f.eks. ved at støtte cellemembranen.
 ## [cellekerne](https://biologibogenc.systime.dk/?id=585)
-cellekernen er der hvor Arvematerialet er opbevaret. Arvematerialet består af DNA som er opbygget i en dobbelt helix, som så er oppakket i krydsformede kromosomer. der er 46 kromosomer i et rask menneske eller 23 kromosom par.
+cellekernen er der hvor Arvematerialet er opbevaret. Arvematerialet består af  [[DNA og RNA#DNA https biologiiudvikling ibog nucleus dk id 154|DNA]] som er opbygget i en dobbelt helix, som så er oppakket i krydsformede kromosomer. der er 46 kromosomer i et rask menneske eller 23 kromosom par.
 ![[DNA.png]]
 ## [Ribosomer og endoplasmatisk retikulum](https://biologibogenc.systime.dk/?id=587)
 Består af to dele:
@@ -71,6 +71,20 @@ eukaryote celle kan også have flageller og pilier som praktisk talt er det samm
 En plantecelle har en celle væg i modsæting til dyrecellen som ikke har en. plante celler har også grønkorn som de bruger til fotosyntese:
 $\ce{6CO2 + 6H2O ->[{lys}] C6H12O6 + 6O2}$ 
 
+# [protein syntese](https://biologiiudvikling.ibog.nucleus.dk/?id=160)
+---
+Formålet er at oversætte opskrifter i vores arvemateriale til proteiner. Det er delt op i to trin:
+1. Transskriptionen
+	foregår i [[celler#cellekerne https biologibogenc systime dk id 585|cellekernen]].
+2. Translationen
+	foregår i [[celler#cytoplasma|cytoplasmaen]].
+
+## Transskription
+
+# [mutation](https://biologiiudvikling.ibog.nucleus.dk/?id=160)
+---
+se også: [Når der sker en fejl i meiosen - systime](https://biologiiudvikling.ibog.nucleus.dk/?id=172)
+
 # fagord
 ---
 * respiration
@@ -89,5 +103,3 @@ $\ce{6CO2 + 6H2O ->[{lys}] C6H12O6 + 6O2}$
 * prokaryot
 	* uden celle kerne
 * vækst kurve/faser
-# kilder
-[celler - systime](https://biologibogenc.systime.dk/?id=458)

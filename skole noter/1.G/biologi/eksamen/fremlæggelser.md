@@ -1,11 +1,9 @@
 # Spørgsmål 1: Cellen og celledeling 
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
-1. Fortælle om forsøget ”Mikroskopi af celler”.  
-2. Redegøre for prokaryote og eukaryote cellers generelle opbygning og enkelte  organellers funktion:
-	  [[celler#prokaryote|prokaryote]]- og [[celler#Eukaryote|eukaryote]] celler
-3. Forklare celledelingstyperne mitose og meiose, herunder forskelle og ligheder:
-	[[celledeling]]
+1. Fortælle om forsøget ”[[1.G/biologi/eksamen/forsøg/beskrivelse/Øvelsesvejledning - Mikroskopi af celler.pdf|Mikroskopi af celler]]”.  
+2. Redegøre for prokaryote og eukaryote cellers generelle opbygning og enkelte  organellers funktion: [[celler#prokaryote|prokaryote]]- og [[celler#Eukaryote|eukaryote]] celler
+3. Forklare celledelingstyperne mitose og meiose, herunder forskelle og ligheder: [[celledeling]]
 4. Diskutere fordele og ulemper ved kønnet og ukønnet formering:
 	TBA
 Stikord: cellekerne, mitokondrier, kloroplaster, overkrydsning, mitotiske og  meiotiske faser.
@@ -14,8 +12,8 @@ Stikord: cellekerne, mitokondrier, kloroplaster, overkrydsning, mitotiske og  me
 # Spørgsmål 2: Cellen, proteinsyntese og mutationer 
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
-1. Fortælle om forsøget ”Mikroskopi af celler”.  
-2. Redegøre for DNA og RNAs opbygning.  
+1. Fortælle om forsøget ”[[1.G/biologi/eksamen/forsøg/beskrivelse/Øvelsesvejledning - Mikroskopi af celler.pdf|Mikroskopi af celler]]”.  
+2. Redegøre for DNA og RNAs opbygning: [[DNA og RNA]].
 3. Forklare hvor og hvordan proteinsyntesens to delprocesser finder sted i cellen.  
 4. Diskutere betydning af genmutationer for proteiners funktion samt betydning  af kromosomtals-mutationer.  
 Stikord: nukleotider, kernebaser, transkription, translation og den genetiske kode.

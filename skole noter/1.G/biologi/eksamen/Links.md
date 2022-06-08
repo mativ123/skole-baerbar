@@ -1,4 +1,7 @@
 # Links
+# på opdaggelse i generne
+[DNA - systime](https://biologiiudvikling.ibog.nucleus.dk/?id=154)
+
 ## Kost, sundhed og motion
 ### Fødevare, fordøjelse og vitaminer mineraler
 https://biologibogen.systime.dk/index.php?id=416 Kost og ernæring
