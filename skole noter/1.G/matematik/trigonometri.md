@@ -19,7 +19,7 @@ en linje fra centrum med vinklen $v$ skære enhedscirklen i punktet $P$. $P$'s $
 ![[enhedscirkel med formler.png]]
 ## tangens
 ![[enhedscirkel med tangens.png]]
-hvis man tegner en lodret linje der tangere enhedscirklen i $(1,0)$ vil $x$'et i det punkt hvor linjen skære linjen med vinklen $v$ svare til $\tan(v)$.
+hvis man tegner en lodret linje der tangere enhedscirklen i $(1,0)$ vil $x$'et i det punkt hvor linjen skære linjen med vinklen $v$ svare til $\tan(v)$
 $\tan(v)=\frac{\sin(v)}{\cos(v)}$
 # kilder
 [[Matematik A.Formelsamling.pdf]]
