@@ -1,6 +1,6 @@
 # cytoplasma
 ---
-cytoplasmaen består af cytosolen som er en vandig væske som findes inde i væsken, og alle cellens strukture.
+cytoplasmaet består af cytosolen som er en vandig væske som findes inde i væsken, og alle cellens strukturer.
 # prokaryote
 ---
 Ingen cellekerne. Derfor flyder deres arvemateriale rundt i cellens cytosol. Arvematerialet er [[DNA og RNA#DNA https biologiiudvikling ibog nucleus dk id 154|DNA]]. Altid encellet og ingen egentlige organeller.
@@ -9,7 +9,7 @@ Ingen cellekerne. Derfor flyder deres arvemateriale rundt i cellens cytosol. Arv
 ### Termofile
 De lever i ekstreme miljøer *(temperaturer help top til 105$^\circ C$)*. De danner energi ved at omdanne svovlbrinte ud af svovl i miljøer helt uden ilt. De kan også leve i miljøer med ilt hvor der er lav pH. De laver svovl om til svovlsyre.
 ### Halofile
-Er aerobe. De kan leve i miljøer med ekstremt højt saltindhold *(det røde hav)*.
+Er aerob. De kan leve i miljøer med ekstremt højt saltindhold *(det røde hav)*.
 ### Methanogener
 Er anaerobe. De nedbryder organisk materiale under omdannelse af methan. De lever f.eks. i tarmsystemer i køer og på havbunden. Bliver brugt at producere biogas.
 
@@ -80,12 +80,32 @@ Formålet er at oversætte opskrifter i vores arvemateriale til proteiner. Det e
 	foregår i [[celler#cytoplasma|cytoplasmaen]].
 
 ## Transskription
-
-# [mutation](https://biologiiudvikling.ibog.nucleus.dk/?id=160)
+Betyder afskrivning. Et enzym som hedder RNA-polymerase aflæser og afskriver bestemte område af [[DNA og RNA#DNA https biologiiudvikling ibog nucleus dk id 154|Arvematerialet]]. Enzymet åbner DNA-molekylet i området hvor det genet er placeret. DNA strengen som bliver afskrevet fra kaldes den kodende streng. Den komplementære streng kaldes skabelonstrengen. RNA strengen fra RNA-polymerasen bevæger sig hen over den kodende streng og placere komplementære baser. Den resulterene RNA streng kaldes det primære transkript.
+## Translation
+![[translation.png]]
+Betyder oversættelse. oversætter det primære transkipt til protein. Det primære transkipt bliver trukket igennem ribosomet og bliver aflæst tre baser ad gangen. Tripletterne kaldes codons. Codons kombinationen koder for 20 forskellige amino syrer.
+![[codon koder.png]]
+Koblingen bliver styret af molekyler kaldet tRNA-molekyler. de kan oversætte en bestemt codon til en amino syre.
+# mutation
 ---
-se også: [Når der sker en fejl i meiosen - systime](https://biologiiudvikling.ibog.nucleus.dk/?id=172)
-
-# fagord
+## [kromosommutation](https://biologiiudvikling.ibog.nucleus.dk/?id=172)
+Sker under [[celledeling#Meiose https biologibogen systime dk id 507|Meiosen]].
+### kromosomtals mutation
+Hvis der skabes sædceller eller ægceller med det forkerte antal kromosomer. skyldes normalt at der anafase et eller to ikke fungere korrekt. Den hyppigtse af disse fejl er at et enkelt par afx formede kromosomer ikke deles korrekt og der kommer en for meget i den ene og en for lidt i den anden datter celle. Hvis det sker i anafase I kaldes det non-disjunktion i første meiotiske deling. I anden kaldes det non-disjunktion i anden meiotiske deling *(sjovt nok)*.
+![[kromosomtalsmutation.png]]
+normalt overlever zygoten ikke ved sådan en fejl.
+### andre typer
+De sker normalt i profasen ved er sker en fejl ved overkrydsningen. de indeles normalt i tre hovedtyper:
+![[kromosommutationer.png]]
+## [genmutation](https://biologiiudvikling.ibog.nucleus.dk/?id=173)
+Er små mutationer der sker rundt omkring i vores arvemateriale. Der er to almindelige genmutationer:
+Punktmutation:
+	Et enkelt basepar bliver erstattet.
+Mindre længdemutation:
+	At der kommer flere basepar til *(insertion)* eller der falder flere fra *(deletion)*.
+Punkt mutation kan have ingen effekt da nogle [[#Translation|codons]] koder for det samme eller stor effekt hvis det ændre et livsvigtigt protein. Mindre længdemutation har altid konskvenser da det kan ændre et stort antal aminosyrer. Gen mutation kan ske hele tiden. F.eks. under replikationen eller hvis der er en mutagen^[noget i miljøet som forsager en mutation]. En mutagen kunne være solen.
+I celler har vi et effektivt reperatiosn system men det er ikke alle mutationer som det kan reparere. Det er kun mutationer i kønceller er deres stamceller som gives videre til børn.
+fagord
 ---
 * respiration
 * mitokondrier

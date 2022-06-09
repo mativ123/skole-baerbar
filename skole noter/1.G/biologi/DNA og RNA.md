@@ -1,8 +1,8 @@
 # [DNA](https://biologiiudvikling.ibog.nucleus.dk/?id=154)
 ---
-Forkortelse for: Deoxyribose Nucleic Acid *(deoxyribonukleinsyre)*. Et DNA molekyle består af to enkelte DNA-strenge viklet sammen til en dobbelt helix:
+Forkortelse for: Deoxyribose Nucleic Acid *(deoxyribonukleinsyre)*. Et DNA molekyle består af to enkelte DNA-strenge viklet sammen til en dobbelthelix:
 ![[DNA.png]]
-En streng er opbygget af skiftevis fosfat og sukkerstof. På sukkerstoffet er der bunden et en af de fire forskellige baser:
+En streng er opbygget af skiftevis fosfat og sukker stof. På sukker stoffet er der bunden et en af de fire forskellige baser:
 Adenin
 Guanin
 Thymin

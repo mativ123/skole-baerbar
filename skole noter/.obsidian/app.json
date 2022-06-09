@@ -10,5 +10,9 @@
   },
   "promptDelete": true,
   "legacyEditor": false,
-  "livePreview": true
+  "livePreview": true,
+  "spellcheck": false,
+  "spellcheckLanguages": [
+    "da"
+  ]
 }
