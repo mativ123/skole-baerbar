@@ -23,8 +23,8 @@ Stikord: nukleotider, kernebaser, transkription, translation og den genetiske ko
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Øvelsesvejledning - Mikroskopering af ornesæd.pdf|Mikroskopi af ornesæd]]”.  
-2. Redegøre for de kvindelige kønsorganers opbygning og funktion.  
-3. Forklare kvindens menstruationscyklus herunder inddragelse af hormonelle  ændringer og positiv og negativ feedback. 
+2. Redegøre for de kvindelige kønsorganers opbygning og funktion: [[Forplantning#Kvinders kønsorganer https biologiiudvikling-c2 ibog nucleus dk id 231|Kvinders kænsorganer]]
+3. Forklare kvindens menstruationscyklus herunder inddragelse af hormonelle  ændringer og positiv og negativ feedback: [[hormoner#Menstruation https biologiiudvikling-c2 ibog nucleus dk id 232|menstruation]]
 4. Diskutere fordele og ulemper ved forskellige præventionsmetoder.  
 Stikord: FSH, LH, østrogen, progesteron, follikel og det gule legeme.
 
@@ -33,9 +33,9 @@ Stikord: FSH, LH, østrogen, progesteron, follikel og det gule legeme.
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Øvelsesvejledning - Mikroskopering af ornesæd.pdf|Mikroskopi af ornesæd]]”.
-2. Redegøre for hvor og hvordan befrugtningen i mennesket sker.  
-3. Forklare de hormonelle ændringer under en graviditet.  
-4. Diskuter årsager og behandlingsmuligheder i forbindelse med ufrivillig  barnløshed i Danmark.  
+2. Redegøre for hvor og hvordan befrugtningen i mennesket sker: [[Forplantning#Befrugtning https biologiiudvikling-c2 ibog nucleus dk id 233|befrugtning]]. 
+4. Forklare de hormonelle ændringer under en graviditet: forbind forskellige info fra [[hormoner]] og [[Forplantning]].
+6. Diskuter årsager og behandlingsmuligheder i forbindelse med ufrivillig  barnløshed i Danmark: [[Forplantning#Barnløshed https biologiiudvikling-c2 ibog nucleus dk id 247|Barnløshed]].
 Stikord: implantation, HCG, østrogen, progesteron, IVF og mikroinsemination.
 
 
@@ -43,9 +43,9 @@ Stikord: implantation, HCG, østrogen, progesteron, IVF og mikroinsemination.
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Øvelsesvejledning - Mikroskopering af ornesæd.pdf|Mikroskopi af ornesæd]]”.  
-2. Redegøre for de mandlige kønsorganers opbygning og funktion.  
-3. Forklare dannelse af kønsceller (meiose) og forklare regulering af mandligt  kønshormon.  
-4. Diskutere faktorer, der kan påvirke mænds sædkvalitet.  
+2. Redegøre for de mandlige kønsorganers opbygning og funktion: [[Forplantning#Det mandelige kønsorgan https biologiiudvikling-c2 ibog nucleus dk id 230|Det mandelige kønsorgan]].
+3. Forklare dannelse af kønsceller (meiose) og forklare regulering af mandligt  kønshormon: [[hormoner]].
+5. Diskutere faktorer, der kan påvirke mænds sædkvalitet: [dette link](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=301) skriver det senere 
 Stikord: meiotiske faser, overkrydsning, FSH, LH, testosteron, sertoliceller,  leydigske celler og sekundære kønskarakterer.
 
 
@@ -53,8 +53,8 @@ Stikord: meiotiske faser, overkrydsning, FSH, LH, testosteron, sertoliceller,  l
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Øvelsesvejledning - Respiration og fotosyntese i vandpest.pdf|Fotosyntese og respiration i vandpest]]”.
-2. Redegøre for plantecellens opbygning og enkelte organellers funktion.  
-3. Forklare plantecellens vigtige livsprocesser: fotosyntese og respiration.  
+2. Redegøre for plantecellens opbygning og enkelte organellers funktion: [[celler#Dyre- plante- og svampeceller https biologibogenc systime dk id 503|Dyre- plante- og svampeceller]] mangler flere detaljer
+3. Forklare plantecellens vigtige livsprocesser: fotosyntese og respiration: samme som før
 4. Diskutere hvordan menneskets aktivitet påvirker økosystemer i naturen.  
 Stikord: kloroplaster, mitokondrier, BBP, NNP, R, plantenæringsstoffer,  klimaforandringer og biodiversitet.
 

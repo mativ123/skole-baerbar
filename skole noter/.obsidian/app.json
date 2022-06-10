@@ -14,5 +14,7 @@
   "spellcheck": false,
   "spellcheckLanguages": [
     "da"
-  ]
+  ],
+  "autoPairMarkdown": false,
+  "useMarkdownLinks": false
 }
