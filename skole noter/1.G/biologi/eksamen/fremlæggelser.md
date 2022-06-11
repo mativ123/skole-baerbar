@@ -45,7 +45,7 @@ Med udgangspunkt i vedlagte bilag skal du:
 1. Fortælle om forsøget ”[[Øvelsesvejledning - Mikroskopering af ornesæd.pdf|Mikroskopi af ornesæd]]”.  
 2. Redegøre for de mandlige kønsorganers opbygning og funktion: [[Forplantning#Det mandelige kønsorgan https biologiiudvikling-c2 ibog nucleus dk id 230|Det mandelige kønsorgan]].
 3. Forklare dannelse af kønsceller (meiose) og forklare regulering af mandligt  kønshormon: [[hormoner]].
-5. Diskutere faktorer, der kan påvirke mænds sædkvalitet: [dette link](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=301) skriver det senere 
+5. Diskutere faktorer, der kan påvirke mænds sædkvalitet: [[Forplantning#nedsat sædkvalitet https biologiiudvikling-c2 ibog nucleus dk id 301|nedsat sædkvalitet]].
 Stikord: meiotiske faser, overkrydsning, FSH, LH, testosteron, sertoliceller,  leydigske celler og sekundære kønskarakterer.
 
 
@@ -53,8 +53,8 @@ Stikord: meiotiske faser, overkrydsning, FSH, LH, testosteron, sertoliceller,  l
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Øvelsesvejledning - Respiration og fotosyntese i vandpest.pdf|Fotosyntese og respiration i vandpest]]”.
-2. Redegøre for plantecellens opbygning og enkelte organellers funktion: [[celler#Dyre- plante- og svampeceller https biologibogenc systime dk id 503|Dyre- plante- og svampeceller]] mangler flere detaljer
-3. Forklare plantecellens vigtige livsprocesser: fotosyntese og respiration: samme som før
+2. Redegøre for plantecellens opbygning og enkelte organellers funktion: [[celler#Plantecelle|plantecelle]].
+3. Forklare plantecellens vigtige livsprocesser: fotosyntese og respiration: [[fotosyntese og respiration#Fotosyntese https biologibogen systime dk index php id 580|fotosyntese]]
 4. Diskutere hvordan menneskets aktivitet påvirker økosystemer i naturen.  
 Stikord: kloroplaster, mitokondrier, BBP, NNP, R, plantenæringsstoffer,  klimaforandringer og biodiversitet.
 

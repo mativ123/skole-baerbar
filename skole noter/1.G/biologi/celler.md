@@ -68,9 +68,11 @@ $\ce{C6H12O6 + 6O2 + 30ADP + 30P_i -> 6CO2 + 6H2O + 30ATP} \text{(+ varme)}$
 ## [Flageller og cilier](https://biologibogenc.systime.dk/?id=514)
 eukaryote celle kan også have flageller og pilier som praktisk talt er det samme som pilier.
 ## [Dyre-, plante- og svampeceller](https://biologibogenc.systime.dk/?id=503)
-En plantecelle har en celle væg i modsæting til dyrecellen som ikke har en. plante celler har også grønkorn som de bruger til fotosyntese:
-$\ce{6CO2 + 6H2O ->[{lys}] C6H12O6 + 6O2}$ 
+### Plantecelle
+En plantecelle har en celle væg, som består af cellulose, i modsæting til dyrecellen som ikke har en. plante celler har også grønkorn *(også kaldet kloroplaster)* som de bruger til fotosyntese:
 
+$\ce{6CO2 + 6H2O ->[{lys}] C6H12O6 + 6O2}$ 
+De indeholder også en central vakuole som er en relativt stor væskefyldt blære. Vakuolen nedbryder affaldsstoffer og oplagre næringsstoffer. Den regulerer også cellens indre tryk og saftspænding^[Det tryk som væsken i planteceller udøver på cellevægen.].
 # [protein syntese](https://biologiiudvikling.ibog.nucleus.dk/?id=160)
 ---
 Formålet er at oversætte opskrifter i vores arvemateriale til proteiner. Det er delt op i to trin:

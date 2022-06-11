@@ -67,6 +67,8 @@ grunden til at mange kvinder venter så længe i forhold til tidligere er:
 -   Valg af partner udskydes eller udskiftes flere gange – det skal være den rigtige
 -   Forlænget ungdom, selvudvikling og følelse af frihed holdt op mod voksenlivet og ansvaret ved at etablere sig som familie.
 Mænd gør det samme og for endda børn endnu senere *(31.4)*.
+## [nedsat sædkvalitet](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=301)
+En grund til nedsat sædkvalitet kan være at man bare har for lidt. En grund kunne også være dårlig kvalitet af selve sædcellerne, ofte på grund af fejl i generne der styre produktionen af sædceller. Det kan også være pågrund af hormon ubalance i kroppen. Det kan både skyldes arvellige forhold eller hormon forstyrrende stoffer i miljøet. Mange af de stoffer vi omgås i vores hverdag er hormon forsyrrende. phtalater^[bruges til at blødgøre plastik], bromerede flammehæmmere^[bruges i elektronik til at forhindre brandudvikling] og forskellige stoffer i nogle hudcremer og rengøringsmidler. der er især under foster stadiet hvor at stofferne kan blive tilføjet til barnet fra moren gennem moderkagen.
 # [Befrugtning](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=233)
 ---
 Befrugning finder sted øverst i æggelederen. Det tager sædcellen ca. 20 minutter at nå hele vejen der op og de lever i omkring 3 døgn. Befrugnings tiden for ægcellen er omkring 24 timer. Af de millioner sædceller der er i en udløsning når kun 1000 hele vejen op til ægget.  Heraf vil en gennemtrænge ægget og udløse sin DNA. Ægcellen har nu 46 kromosomer.
