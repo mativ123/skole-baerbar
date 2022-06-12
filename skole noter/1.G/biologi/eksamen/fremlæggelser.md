@@ -116,7 +116,7 @@ Med udgangspunkt i vedlagte bilag skal du:
 1. Fortælle om forsøget ”Mikroskopi af celler”.  
 2. Redegøre for hvad mikroorganismer er, herunder forskellige typer: [mikroorganismer](https://biologibogen.systime.dk/?id=516) og [[celler#prokaryote|prokaryote celler]].
 3. Forklare opbygningen af bakterier og deres rolle i udviklingen af den eukaryote celle: [[celler#Bakteriers opbygning|bakteriers opbygning]] og  [under endosymbiont teorien](https://biologibogenc.systime.dk/?id=498).
-4. Diskutere hvorvidt mennesket påvirker den naturlige selektion og dermed  evolutionen.  
+4. Diskutere hvorvidt mennesket påvirker den naturlige selektion og dermed  evolutionen: [Menneskets påvirkning på selektion](https://biologibogen.systime.dk/?id=558)
 Stikord: prokaryoter, eukaryoter, endosymbiont-teori, genetisk variation og  selektion.
 
 
@@ -124,9 +124,9 @@ Stikord: prokaryoter, eukaryoter, endosymbiont-teori, genetisk variation og  sel
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Eksamensforberedelse biologi C_gærs vækst1.pdf|Vækst af gær]]”.  
-2. Redegøre for opbygningen af en eukaryot celle samt enkelte organellers  funktion.  
-3. Forklare aerob og anaerob energiproduktion hos gærceller.  
-4. Diskutere betydningen af viden om mikroorganismer i forhold til menneskets sundhed og sygdom.  
+2. Redegøre for opbygningen af en eukaryot celle samt enkelte organellers  funktion: [[celler#Eukaryote|Eukaryote celler]].
+3. Forklare aerob og anaerob energiproduktion hos gærcelle: [Gær](https://biologibogenc.systime.dk/?id=512) og [gæring](https://biologibogenc.systime.dk/?id=642).  
+4. Diskutere betydningen af viden om mikroorganismer i forhold til menneskets sundhed og sygdom: [Virus](https://biologibogen.systime.dk/?id=517), [infektionssygdomme](https://biologibogen.systime.dk/?id=522). Hvis der er tid: [immunforsvaret](https://biologibogen.systime.dk/?id=518)
 Stikord: cellekerne, mitokondrier, gærings- og respirationsproces, dyrkning af  mikroorganismer og vækstfaktorer.
 
 
@@ -134,9 +134,9 @@ Stikord: cellekerne, mitokondrier, gærings- og respirationsproces, dyrkning af 
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Eksamensforberedelse biologi C_gærs vækst1.pdf|Vækst af gær]]”.  
-2. Redegøre for hvad mikroorganismer er samt mikroorganismers vækst.  
-3. Forklare hvilke faktorer, som kan påvirke mikroorganismers vækst.  
-4. Diskutere mikroorganismers anvendelsesmuligheder inden for  industrien.  
+2. Redegøre for hvad mikroorganismer er samt mikroorganismers vækst: [[Mikroorganismer_vækst og formering_ML 35-38.pdf|mikro organismers vækst og formering]].
+3. Forklare hvilke faktorer, som kan påvirke mikroorganismers vækst: -||-  
+4. Diskutere mikroorganismers anvendelsesmuligheder inden for  industrien: [[Industriel+udnyttelse+af+Mikroorganismer.pdf|industriel udnyttelse af mikro organismer]].
 Stikord: vækstkurve og vækstfaser, enzymer, temperatur og pH.
 
 
@@ -144,9 +144,9 @@ Stikord: vækstkurve og vækstfaser, enzymer, temperatur og pH.
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Øvelsesvejledning - Respiration og fotosyntese i vandpest.pdf|Fotosyntese og respiration i vandpest]]”.  
-2. Redegøre for begrebet økosystem samt abiotiske og biotiske faktorer.  
-3. Forklare hvordan energi strømmer igennem et økosystems trofiske niveauer.  
-4. Diskutere hvordan menneskets aktivitet påvirker økosystemer i naturen.  
+2. Redegøre for begrebet økosystem samt abiotiske og biotiske faktorer: [Abiotiske og biotiske faktorer](https://biologibogen.systime.dk/index.php?id=577).
+3. Forklare hvordan energi strømmer igennem et økosystems trofiske niveauer.  [[økosystemer]] og [Energistrømme og fødekæder](https://biologibogen.systime.dk/index.php?id=575)
+4. Diskutere hvordan menneskets aktivitet påvirker økosystemer i naturen: [Miljøfremmede stoffer i naturen](https://biologibogen.systime.dk/?id=620) og [Klimaforandringer](https://biologibogen.systime.dk/?id=618)
 Stikord: fødekæder og fødenet, kloroplast, mitokondrie, respirationstab,  klimaforandringer og biodiversitet.
 
 
@@ -154,9 +154,9 @@ Stikord: fødekæder og fødenet, kloroplast, mitokondrie, respirationstab,  kli
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Eksamensforberedelse biologi C_blodtryk.pdf|Måling af blodtryk]]”.  
-2. Redegøre for basalstofskiftet, energibalance og hvad kostens energigivende  næringsstoffer anvendes til i kroppen.  
-3. Forklare hvordan man bestemme om man er overvægtig eller svær  overvægtig.  
-4. Diskutere sundhedsmæssige konsekvenser af et for stort energi-indtag i  forhold til energiforbrug.  
+2. Redegøre for basalstofskiftet, energibalance og hvad kostens energigivende  næringsstoffer anvendes til i kroppen: [Kroppens energibalance](https://biologiiudvikling-c2.ibog.nucleus.dk/index.php?id=191) og underspørgsmål 2 i opg [[#Spørgsmål 8 Diabetes og kost|8]].
+3. Forklare hvordan man bestemme om man er overvægtig eller svær  overvægtig: [Motion kropsvægt og livsstil](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=207) inklusiv dens under kapitler.
+4. Diskutere sundhedsmæssige konsekvenser af et for stort energi-indtag i  forhold til energiforbrug: [Diabetes](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=171) og [Motion og sundhed](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=132) især under kapitlet [Motion kropsvægt og livsstil](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=207).
 Stikord: aerob respiration, anaerob respiration, BMI, ATP, mitokondrie.
 
 
