@@ -9,7 +9,19 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "1.G/biologi/hormoner.md",
+            "file": "1.G/biologi/eksamen/fremlæggelser.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "8963a79952422335",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "1.G/biologi/eksamen/Links.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.G/biologi/hormoner.md",
+                "file": "1.G/biologi/eksamen/fremlæggelser.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,15 +121,15 @@
   },
   "active": "d2be325a2bf8e3e7",
   "lastOpenFiles": [
-    "1.G/biologi/hormoner.md",
-    "1.G/biologi/Forplantning.md",
-    "1.G/biologi/celler.md",
-    "1.G/biologi/fotosyntese og respiration.md",
     "1.G/biologi/eksamen/fremlæggelser.md",
-    "1.G/biologi/DNA og RNA.md",
-    "1.G/biologi/billeder/sæd stamceller.png",
-    "1.G/biologi/billeder/grønkorn.png",
+    "1.G/biologi/celler.md",
     "1.G/biologi/eksamen/Links.md",
-    "1.G/biologi/celledeling.md"
+    "1.G/biologi/eksamen/Kost, sundhed og motion/de officielle kostråd.pdf",
+    "1.G/biologi/eksamen/forsøg/beskrivelse/Eksamensforberedelse biologi C_nedbrydning af stivelse.pdf",
+    "1.G/biologi/eksamen/forsøg/rapporter/Eksempel på rapport_nedbrydning af stivelse.pdf",
+    "1.G/biologi/eksamen/forsøg/Biologi C eksamensinfo 2022.pdf",
+    "1.G/biologi/Forplantning.md",
+    "1.G/biologi/fotosyntese og respiration.md",
+    "1.G/biologi/hormoner.md"
   ]
 }

@@ -55,7 +55,7 @@ Med udgangspunkt i vedlagte bilag skal du:
 1. Fortælle om forsøget ”[[Øvelsesvejledning - Respiration og fotosyntese i vandpest.pdf|Fotosyntese og respiration i vandpest]]”.
 2. Redegøre for plantecellens opbygning og enkelte organellers funktion: [[celler#Plantecelle|plantecelle]].
 3. Forklare plantecellens vigtige livsprocesser: fotosyntese og respiration: [[fotosyntese og respiration#Fotosyntese https biologibogen systime dk index php id 580|fotosyntese]]
-4. Diskutere hvordan menneskets aktivitet påvirker økosystemer i naturen.  
+4. Diskutere hvordan menneskets aktivitet påvirker økosystemer i naturen: [klima forandringer - systime](https://biologibogen.systime.dk/index.php?id=618&L=0)
 Stikord: kloroplaster, mitokondrier, BBP, NNP, R, plantenæringsstoffer,  klimaforandringer og biodiversitet.
 
 
@@ -63,9 +63,9 @@ Stikord: kloroplaster, mitokondrier, BBP, NNP, R, plantenæringsstoffer,  klimaf
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Eksamensforberedelse biologi C_nedbrydning af stivelse.pdf|Nedbrydning af stivelse]]”.  
-2. Redegøre for opbygning og funktion af de tre energigivende næringsstoffer.  
-3. Forklare hvordan disse næringsstoffer fordøjes og optages, herunder inddrage  mekanisk og kemisk fordøjelse.  
-4. Diskutere sundhedsmyndighedernes anbefaling med hensyn til kost og livsstil  samt sammenhængen mellem kost og sundhed.  
+2. Redegøre for opbygning og funktion af de tre energigivende næringsstoffer: [Kost og enæring](https://biologibogen.systime.dk/index.php?id=416), [Kulhydrater](https://biologibogen.systime.dk/index.php?id=417), [fedtstoffer](https://biologibogen.systime.dk/index.php?id=418), [proteiner](https://biologibogen.systime.dk/index.php?id=419&L=0) og [kostens energi givende stoffer](https://biologiiudvikling.ibog.nucleus.dk/?id=215).
+3. Forklare hvordan disse næringsstoffer fordøjes og optages, herunder inddrage  mekanisk og kemisk fordøjelse. [fordøjelse](https://biologiiudvikling.ibog.nucleus.dk/index.php?id=217)
+4. Diskutere sundhedsmyndighedernes anbefaling med hensyn til kost og livsstil  samt sammenhængen mellem kost og sundhed: [[de officielle kostråd.pdf]].
 Stikord: protein, fedt, kulhydrat, villi, mikrovilli og officielle kostråd.
 
 
@@ -73,13 +73,14 @@ Stikord: protein, fedt, kulhydrat, villi, mikrovilli og officielle kostråd.
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Glykæmisk index rapport.pdf|Glykæmisk indeks]]”.  
-2. Redegøre for opbygning og fordøjelse af kulhydrat i kosten.  
-3. Forklare reguleringen af blodsukker, herunder inddrage hormonerne glukagon  og insulin.  
-4. Diskutere årsager til type-2 diabetes samt kostanbefalinger til personer med  denne sygdom.  
+2. Redegøre for opbygning og fordøjelse af kulhydrat i kosten: [hurtige og langsomme kulhydrater](https://biologiiudvikling.ibog.nucleus.dk/index.php?id=222#c906), [kulhydrater](https://biologibogen.systime.dk/index.php?id=417) og  [fordøjelse](https://biologiiudvikling.ibog.nucleus.dk/index.php?id=217).
+3. Forklare reguleringen af blodsukker, herunder inddrage hormonerne glukagon  og insulin: [hurtige og langsomme kulhydrater](https://biologiiudvikling.ibog.nucleus.dk/index.php?id=222#c906)
+4. Diskutere årsager til type-2 diabetes samt kostanbefalinger til personer med  denne sygdom: [diabetes](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=171).
 Stikord: simple og komplekse kulhydrater, mekanisk og kemisk fordøjelse og  homeostase.
 
 
-# Spørgsmål 9: Kulhydrater og regulering af blodsukker 
+# Spørgsmål 9: Kulhydrater og regulering af blodsukker  
+**(samme spørgsmål som før undtaget forsøget)** 
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Eksamensforberedelse biologi C_nedbrydning af stivelse.pdf|Nedbrydning af stivelse]]”.  
@@ -93,9 +94,9 @@ Stikord: simple og komplekse kulhydrater, mekanisk og kemisk fordøjelse,  homeo
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Eksamensforberedelse biologi C_blodtryk.pdf|Måling af blodtryk]]”.  
-2. Redegøre for hjertets opbygning og funktion samt blodkredsløbet.  
-3. Forklare hvordan ilt- og kuldioxid transporteres fra lunger (alveole) til  kapillærer og fra kapillærer til muskelceller.  
-4. Diskutere årsager til udvikling af hjertekar-sygdomme.  
+2. Redegøre for hjertets opbygning og funktion samt blodkredsløbet: [Hjertets opbygning og funktion](https://biologiiudvikling-c2.ibog.nucleus.dk/index.php?id=195) og [lunge kredsløbet](https://biologiiudvikling-c2.ibog.nucleus.dk/index.php?id=195)
+3. Forklare hvordan ilt- og kuldioxid transporteres fra lunger (alveole) til  kapillærer og fra kapillærer til muskelceller: [Kroppens blodkarnet](https://biologiiudvikling-c2.ibog.nucleus.dk/index.php?id=203#c569)  
+4. Diskutere årsager til udvikling af hjertekar-sygdomme: [hjertekar- sygdomme](https://bforbedreidraet.systime.dk/?id=146).
 Stikord: arterier, vener, diffusion, hæmoglobin og respiration.
 
 
@@ -103,9 +104,9 @@ Stikord: arterier, vener, diffusion, hæmoglobin og respiration.
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”[[Eksamensforberedelse biologi C_blodtryk.pdf|Måling af blodtryk]]”.  
-2. Redegøre for lungernes opbygning og funktion.  
-3. Forklare ændringer i puls fra hvile til arbejde.  
-4. Diskutere sundhedsmyndighedernes anbefalinger i forhold til motion samt  konsekvenser af manglende motion.  
+2. Redegøre for lungernes opbygning og funktion: [Lungernes opbygning og funktion](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=194) 
+3. Forklare ændringer i puls fra hvile til arbejde: [konditionstræning](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=205) og [Anaerobt arbejde og træning](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=206).
+4. Diskutere sundhedsmyndighedernes anbefalinger i forhold til motion samt  konsekvenser af manglende motion. [Mange unge dyrker motion, men ikke alle](https://biologiiudvikling-c2.ibog.nucleus.dk/?id=189) og [Motion kropsvægt og livsstil](https://biologiiudvikling-c2.ibog.nucleus.dk/index.php?id=207)
 Stikord: alveole, diffusion, ATP, aerob og anaerob energiproduktion.
 
 
@@ -113,8 +114,8 @@ Stikord: alveole, diffusion, ATP, aerob og anaerob energiproduktion.
 ---
 Med udgangspunkt i vedlagte bilag skal du:  
 1. Fortælle om forsøget ”Mikroskopi af celler”.  
-2. Redegøre for hvad mikroorganismer er, herunder forskellige typer.  
-3. Forklare opbygningen af bakterier og deres rolle i udviklingen af den  eukaryote celle.  
+2. Redegøre for hvad mikroorganismer er, herunder forskellige typer: [mikroorganismer](https://biologibogen.systime.dk/?id=516) og [[celler#prokaryote|prokaryote celler]].
+3. Forklare opbygningen af bakterier og deres rolle i udviklingen af den eukaryote celle: [[celler#Bakteriers opbygning|bakteriers opbygning]] og  [under endosymbiont teorien](https://biologibogenc.systime.dk/?id=498).
 4. Diskutere hvorvidt mennesket påvirker den naturlige selektion og dermed  evolutionen.  
 Stikord: prokaryoter, eukaryoter, endosymbiont-teori, genetisk variation og  selektion.
 
